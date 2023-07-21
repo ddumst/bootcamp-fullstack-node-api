@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": ["app/common/*"],
+      "@auth/*": ["app/auth/*"],
+      "@extensions/*": ["app/extensions/*"],
+      "@routes/*": ["app/routes/*"],
+      "@graph/*": ["app/graph/*"],
+    }
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/common/utils/config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "test/**/*.ts"
+  ]
+}
