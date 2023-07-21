@@ -1,0 +1,35 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Connect to server and pull latest changes
+        run: |
+          ssh -o StrictHostKeyChecking=no root@85.239.242.71 "cd /home/apg-platform-api && git checkout main && git pull"
+
+      - name: Stop and remove existing container
+        run: |
+          ssh -o StrictHostKeyChecking=no root@85.239.242.71 "cd /home/apg-platform-api && docker stop apg-platform-api || true"
+          ssh -o StrictHostKeyChecking=no root@85.239.242.71 "cd /home/apg-platform-api && docker rm apg-platform-api || true"
+          ssh -o StrictHostKeyChecking=no root@85.239.242.71 "cd /home/apg-platform-api && docker stop apg-platform-api-dev || true"
+          ssh -o StrictHostKeyChecking=no root@85.239.242.71 "cd /home/apg-platform-api && docker rm apg-platform-api-dev || true"
+
+      - name: Build and run Docker containers
+        run: |
+          ssh -o StrictHostKeyChecking=no root@85.239.242.71 "cd /home/apg-platform-api && docker-compose up --build -d"

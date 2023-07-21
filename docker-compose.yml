@@ -1,0 +1,63 @@
+version: '3.9'
+networks:
+  t2_proxy:
+    name: t2_proxy
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.90.0/24
+
+x-common-keys-core: &common-keys-core
+  networks:
+    - t2_proxy
+  security_opt:
+    - no-new-privileges:true
+  restart: always
+
+services:
+
+  ts-node-docker:
+    <<: *common-keys-core
+    container_name: apg-platform-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/home/node/app/app
+      - ./nodemon.json:/home/node/app/nodemon.json
+    expose:
+      - '3040'
+    ports:
+      - '3040'
+    command: node dist/app.js
+    env_file:
+      - .env.production
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.apg-platform-api.rule=Host(`platform.apg.gg`)"
+      - "traefik.http.routers.apg-platform-api.entrypoints=websecure"
+      # If you want to enable SSL, uncomment the following line.
+      - "traefik.http.routers.apg-platform-api.tls.certresolver=apgplatform"
+
+  ts-node-dev-docker:
+    <<: *common-keys-core
+    container_name: apg-platform-api-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/home/node/app/app
+      - ./nodemon.json:/home/node/app/nodemon.json
+    expose:
+      - '5040'
+    ports:
+      - '5040'
+    command: node dist/app.js
+    env_file:
+      - .env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.apg-platform-api-dev.rule=Host(`platformdev.apg.gg`)"
+      - "traefik.http.routers.apg-platform-api-dev.entrypoints=websecure"
+      # If you want to enable SSL, uncomment the following line.
+      - "traefik.http.routers.apg-platform-api-dev.tls.certresolver=apgplatformdev"    
