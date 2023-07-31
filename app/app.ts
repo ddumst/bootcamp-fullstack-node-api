@@ -13,8 +13,8 @@ moduleAlias.addAliases({
   "@graph": `${__dirname}/graph`,
 });
 
-import { CommonRoutesConfig } from "./common/common.routes.config";
-import { UsersRoutes } from "./routes/users/users.routes.config";
+import { CommonRoutesConfig } from "@common/common.routes.config";
+import { UsersRoutes } from "@routes/users/users.routes.config";
 
 import * as expressWinston from "express-winston";
 import * as websocket from "@common/utils/websocket";

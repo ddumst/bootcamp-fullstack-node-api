@@ -6,7 +6,7 @@
     "scripts": {
         "tsc": "tsc",
         "dev-debug": "nodemon --watch . --ext ts --exec \"npm run tsc\"",
-        "start": "ts-node app/app",
+        "start": "ts-node dist/app",
         "test-dev": "nodemon --watch . --ext ts --exec \"mocha -r ts-node/register test/**/*.test.ts\"",
         "dev": "nodemon",
         "test": "echo \"Error: no test specified\" && exit 1"
