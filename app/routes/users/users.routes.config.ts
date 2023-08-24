@@ -16,7 +16,7 @@ export class UsersRoutes extends CommonRoutesConfig implements configureRoutes {
     const jwtMiddleware = JwtMiddleware.getInstance();
     const usersController = new UsersController();
 
-    // DISCORD LOGIN
     this.app.post("/user/:userId/:imageType", [jwtMiddleware.validReqUser, usersController.upload]);
+    this.app.post("/upload/:fileType", [jwtMiddleware.validReqUser, usersController.uploadFile]);
   }
 }
