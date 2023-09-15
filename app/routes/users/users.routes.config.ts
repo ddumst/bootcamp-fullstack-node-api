@@ -18,5 +18,6 @@ export class UsersRoutes extends CommonRoutesConfig implements configureRoutes {
 
     this.app.post("/user/:userId/:imageType", [jwtMiddleware.validReqUser, usersController.upload]);
     this.app.post("/upload/:fileType", [jwtMiddleware.validReqUser, usersController.uploadFile]);
+    this.app.post("/uploads", [jwtMiddleware.validReqUser, usersController.uploadFiles]);
   }
 }

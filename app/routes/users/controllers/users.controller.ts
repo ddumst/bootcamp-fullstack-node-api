@@ -1,8 +1,9 @@
 import express from "express";
-import { cache } from '@common/services/cache.service';
+import sizeOf from "image-size";
 import AWS from "aws-sdk";
 import crypto from 'crypto';
 import { AccountEndpoints } from '@graph/account.endpoints';
+import { FileEndpoints } from "@graph/file.endpoints";
 
 export class UsersController {
   constructor() {}
@@ -52,7 +53,6 @@ export class UsersController {
     // Subir el archivo a Contabo Object Storage
     s3.upload(uploadParams, async (err: any, data: any) => {
       if (err) {
-        console.error('Error al subir el archivo:', err);
         return res.status(500).json({ error: 'Error al subir el archivo' });
       }
   
@@ -63,7 +63,6 @@ export class UsersController {
         if (image) {
           s3.deleteObject(deleteParams, (err: any, data: any) => {
             if (err) {
-              console.error('Error al eliminar el archivo:', err);
               return res.status(500).json({ error: 'Error al eliminar el archivo' });
             }
           });
@@ -101,7 +100,7 @@ export class UsersController {
 
     const hash = crypto.createHash('sha256').update(`${user.id}-${fileType}-${timestamp}`).digest('hex');
 
-    const { name, mimetype, size, data } = file
+    const { name, data } = file;
     const fileContent  = Buffer.from(data, 'binary');
 
     const uploadParams = {
@@ -128,4 +127,92 @@ export class UsersController {
       }
     });
   }
+
+  uploadFiles = async (req: any, res: express.Response) => {
+    const files: Record<string, any> = req?.files || null;
+    const user = req.user;
+    const authToken = req.authToken;
+  
+    const s3 = new AWS.S3({
+      endpoint: "https://usc1.contabostorage.com/apg",
+      accessKeyId: "38d173324e6c0e84873d1594d33b99b2",
+      secretAccessKey: "dc7d01478a8a43e421b66524459e06b1",
+      s3BucketEndpoint: true,
+    });
+  
+    // Return if the request doesn't contain any files
+    if (!files || Object.keys(files).length === 0) {
+      return res.status(400).json({ error: 'No se envió ningún archivo.' });
+    }
+  
+    const promises: Promise<any>[] = [];
+  
+    for (const fieldName in files) {
+      const file = files[fieldName];
+  
+      if (Array.isArray(file)) {
+        // If there are multiple files with the same field name (up to 10), process each one
+        for (const singleFile of file) {
+          promises.push(uploadSingleFile(singleFile));
+        }
+      } else {
+        promises.push(uploadSingleFile(file));
+      }
+    }
+  
+    try {
+      const results = await Promise.all(promises);
+      const imageUrls = results.filter((result) => result.imageUrl);
+  
+      return res.json({
+        urls: imageUrls,
+        message: 'Archivos subidos correctamente.',
+      });
+    } catch (error) {
+      return res.status(500).json({ error: 'Error al subir archivos.' });
+    }
+  
+    async function uploadSingleFile(file: any): Promise<{ id?: number, imageUrl?: string, error?: string }> {
+      return new Promise((resolve, reject) => {
+        const timestamp: string = Date.now().toString();
+        const { name, mimetype, size, data } = file;
+        const dimensions = sizeOf(file.data);
+        const fileContent  = Buffer.from(data, 'binary');
+        const hash = crypto.createHash('sha256').update(`${user.id}-${name}-${timestamp}`).digest('hex');
+
+        const uploadParams: AWS.S3.PutObjectRequest = {
+          Bucket: 'apg',
+          Key: `${hash}.${name.split('.').pop()}`,
+          Body: fileContent,
+          ContentType: mimetype,
+        };
+  
+        // Upload the file to Contabo Object Storage
+        s3.upload(uploadParams, async (err: Error, data: AWS.S3.ManagedUpload.SendData) => {
+          if (err) {
+            resolve({ error: 'Error al subir el archivo' });
+          } else {
+            // Construct the URL of the object in Contabo Object Storage using the Etag
+            const imageUrl: string = `https://storage.apg.gg/${uploadParams.Key}`;
+
+            const insertedFile = await FileEndpoints.insertFile(
+              {
+                caption: '',
+                height: dimensions.height || 0,
+                name: uploadParams.Key,
+                type: mimetype,
+                url: imageUrl,
+                width: dimensions.width || 0,
+                isActive: true
+              }, 
+              authToken
+            );
+
+            resolve({ id: insertedFile.id, imageUrl });
+          }
+        });
+      });
+    }
+  }
+  
 }

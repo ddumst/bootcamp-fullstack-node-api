@@ -40,3 +40,11 @@ export const operationGetAccountUser = `
     }
   }
 `;
+
+export const operationFiles = `
+  mutation InsertFile($object: files_insert_input = {}) {
+    insertFile: insert_files_one(object: $object) {
+      id
+    }
+  }
+`;

@@ -17,3 +17,16 @@ export interface ApgUser {
   username: string;
   updatedAt: Date;
 }
+
+export interface ApgFile {
+  caption?: string;
+  createdAt?: Date;
+  height: number;
+  id?: number;
+  isActive: boolean;
+  name: string;
+  type: string;
+  updatedAt?: Date;
+  url: string;
+  width: number;
+}
