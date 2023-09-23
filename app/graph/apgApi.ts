@@ -7,7 +7,7 @@ export const apgGraphQL = async (
   token?: string
 ) => {
   const config = {
-    url: 'https://apidev.apg.gg/v1/graphql',
+    url: 'https://apidev2.apg.gg/v1/graphql',
     method: 'post',
     data: {
       query: operationsDoc,
