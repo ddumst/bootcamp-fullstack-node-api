@@ -30,3 +30,9 @@ export interface ApgFile {
   url: string;
   width: number;
 }
+
+export interface EditProfileSetProps<T> {
+  userId?: number;
+  token: string;
+  data: T;
+}

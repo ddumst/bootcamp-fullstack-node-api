@@ -2,8 +2,11 @@ import express from "express";
 import sizeOf from "image-size";
 import AWS from "aws-sdk";
 import crypto from 'crypto';
-import { AccountEndpoints } from '@graph/account.endpoints';
+import { AccountEndpoints, RequestError } from '@graph/account.endpoints';
 import { FileEndpoints } from "@graph/file.endpoints";
+import getYoutubeChannelIdFromUrl from "@common/utils/getYoutubeChannelIdFromUrl";
+import { VideosEndpoints } from "@graph/profile-videos.endpoints";
+import parse from "rss-to-json";
 
 export class UsersController {
   constructor() {}
@@ -215,4 +218,84 @@ export class UsersController {
     }
   }
   
+  saveYoutubeChannel = async (req: any, res: express.Response) => {
+    const user = req.user;
+    const authToken = req.authToken;
+    const { isEditing } = req.query;
+    const { channelLink, template, isActive, youtubeChannelId } = req.body;
+
+    const channelId = await getYoutubeChannelIdFromUrl(channelLink);
+
+    if ((channelId as RequestError)?.response?.status) {
+      return res.status(400).json((channelId as RequestError));
+    }
+
+    if (Boolean(isEditing)) {
+      try {
+        const response = await VideosEndpoints.update({
+          userId: user.id,
+          token: authToken,
+          data: {
+            channelLink,
+            template,
+            isActive,
+            channelId,
+            youtubeChannelId
+          }
+        });
+  
+        if (response) {
+          return res.json({
+            message: "Video updated successfully"
+          })
+        }
+      } catch (error) {
+        return res.status(404).json({
+          message: 'Video not found',
+          code: 3051
+        })
+      }
+    } else {
+      try {
+        const response = await VideosEndpoints.insert({
+          userId: user.id,
+          token: authToken,
+          data: {
+            channelLink,
+            template,
+            channelId,
+            isActive: true
+          }
+        });
+  
+        if (response) {
+          return res.json({
+            message: "Video inserted successfully"
+          })
+        }
+      } catch (error) {
+        return res.status(404).json({
+          message: 'Video not found',
+          code: 3050
+        })
+      }
+    }
+
+    return res.json({});
+  }
+
+  getYoutubeVideos = async (req: any, res: express.Response) => {
+    const { channelId } = req.params;
+
+    try {
+      const videos = await parse(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`)
+      
+      return res.json(videos);
+    } catch (error) {
+      return res.status(404).json({
+        message: 'Can\'t fetch videos from this channel',
+        code: 3053
+      })
+    }
+  }
 }
