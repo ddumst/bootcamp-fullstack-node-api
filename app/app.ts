@@ -1,5 +1,6 @@
 import express from "express";
 import moduleAlias from 'module-alias';
+import cors from 'cors'; 
 import * as http from "http";
 import * as bodyparser from "body-parser";
 import * as WebSocket from 'ws';
@@ -34,6 +35,12 @@ process.on("uncaughtException", (err) => {
 });
 
 app.use(bodyparser.json({ limit: "5mb" }));
+
+app.use(cors({
+  origin: `${process.env.DOMAIN_URL}`, // Especifica el origen permitido
+	credentials: true,
+  exposedHeaders: ['apgstats_auth_token']
+}));
 
 // Middleware to handle incoming files
 app.use(fileUpload({
