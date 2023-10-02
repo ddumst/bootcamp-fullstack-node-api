@@ -50,22 +50,6 @@ app.use(fileUpload({
 let index = expressWinston.requestWhitelist.indexOf("headers");
 if (index !== -1) expressWinston.requestWhitelist.splice(index, 1);
 
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://u31439110.apg.gg");
-  res.header("Access-Control-Allow-Credentials", "true");
-  res.header("Access-Control-Allow-Methods", "GET,HEAD,PUT,PATCH,POST,DELETE");
-  res.header("Access-Control-Expose-Headers", "Content-Length");
-  res.header(
-    "Access-Control-Allow-Headers",
-    req.header("Access-Control-Request-Headers")
-  );
-  if (req.method === "OPTIONS") {
-    return res.status(200).send();
-  } else {
-    return next();
-  }
-});
-
 // routes definition should be placed here
 routes.push(new UsersRoutes(app));
 
