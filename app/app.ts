@@ -19,7 +19,7 @@ import { UsersRoutes } from "@routes/users/users.routes.config";
 
 import * as expressWinston from "express-winston";
 import * as websocket from "@common/utils/websocket";
-import { PORT, NODE_ENV } from "@common/utils/config";
+import { PORT, SERVER_PORT, NODE_ENV } from "@common/utils/config";
 
 const app = express();
 const server: http.Server = new http.Server(app);
@@ -70,10 +70,10 @@ app.listen(port, () => {
   console.log(`Api listening on port ${port}!`);
 });
 
-server.listen(3030, () => {
+server.listen(SERVER_PORT, () => {
   console.log("PM2 Restarted");
   console.log(`Environment: '${NODE_ENV}'`);
-  console.log(`Server running at port 3030`);
+  console.log(`Server running at port ${SERVER_PORT}`);
   routes.forEach((route: CommonRoutesConfig) => {
     console.log(`Routes configured for ${route.getName()}`);
   });

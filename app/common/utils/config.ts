@@ -24,7 +24,8 @@ switch (process.env.NODE_ENV) {
 dotenv.config({ path: path });
 
 export const NODE_ENV = process.env.NODE_ENV;
-export const PORT = 3040;
+export const PORT = process.env.PORT;
+export const SERVER_PORT = process.env.SERVER_PORT;
 export const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
 export const BITLY_ACCESS_TOKEN = process.env.BITLY_ACCESS_TOKEN;
 export const BITLY_GROUP_GUID = process.env.BITLY_GROUP_GUID;
