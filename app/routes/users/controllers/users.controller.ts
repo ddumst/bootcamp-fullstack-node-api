@@ -230,7 +230,7 @@ export class UsersController {
       return res.status(400).json((channelId as RequestError));
     }
 
-    if (Boolean(isEditing)) {
+    if (isEditing === 'true') {
       try {
         const response = await VideosEndpoints.update({
           userId: user.id,
@@ -297,5 +297,9 @@ export class UsersController {
         code: 3053
       })
     }
+  }
+
+  claimBadgeFromDiscordRoleId = async (req: any, res: express.Response) => {
+    const { roleId } = req.params;
   }
 }

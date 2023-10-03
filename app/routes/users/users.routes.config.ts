@@ -22,6 +22,7 @@ export class UsersRoutes extends CommonRoutesConfig implements configureRoutes {
     this.app.post("/uploads", [jwtMiddleware.validReqUser, usersController.uploadFiles]);
 
     this.app.get("/youtube/:channelId", [usersController.getYoutubeVideos]);
-    
+
+    this.app.post("/manager/discord/roles/:roleId", [usersController.claimBadgeFromDiscordRoleId]);
   }
 }
