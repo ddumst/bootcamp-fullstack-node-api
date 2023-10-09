@@ -7,6 +7,7 @@ import { FileEndpoints } from "@graph/file.endpoints";
 import getYoutubeChannelIdFromUrl from "@common/utils/getYoutubeChannelIdFromUrl";
 import { VideosEndpoints } from "@graph/profile-videos.endpoints";
 import parse from "rss-to-json";
+import { GamesEndpoints } from "@graph/profile-games.endpoints";
 
 export class UsersController {
   constructor() {}
@@ -301,5 +302,32 @@ export class UsersController {
 
   claimBadgeFromDiscordRoleId = async (req: any, res: express.Response) => {
     const { roleId } = req.params;
+  }
+
+  createUserGame = async (req: any, res: express.Response) => {
+    const authToken = req.authToken;
+    const { gameId, clasificationId, playerTag } = req.body;
+
+    try {
+      const insertedGame = await GamesEndpoints.insert({
+        data: {
+          gameId: +gameId,
+          clasificationId: +clasificationId,
+          playerTag: playerTag
+        },
+        token: authToken
+      });
+
+      if (insertedGame) {
+        return res.json({
+          message: "Game inserted successfully"
+        })
+      }
+    } catch (error) {
+      return res.status(404).json({
+        message: 'Game not found',
+        code: 3050
+      })
+    }
   }
 }

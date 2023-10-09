@@ -108,3 +108,65 @@ export const operationProfileVideo = `
     }
   }
 `
+
+export const operationProfileGame = `
+  query GetUserGames($where: user_games_bool_exp!) {
+    userGames: user_games(order_by: {createdAt: asc}, where: $where) {
+      clasificationId
+      gameId
+      id
+      isActive
+      playerTag
+      userId
+      clasification {
+        image
+        slug
+        name
+        id
+      }
+      game {
+        banner
+        id
+        name
+        slug
+        thumbnail
+      }
+    }
+  }
+
+  mutation InsertUserGame($object: user_games_insert_input!) {
+    insertUserGame: insert_user_games_one(object: $object) {
+      clasificationId
+      gameId
+      id
+      isActive
+      playerTag
+      userId
+    }
+  }
+
+  mutation UpdateUserGame($gameId: Int!, $userId: Int!, $_set: user_games_set_input = {}) {
+    updatedUserGame: update_user_games_by_pk(pk_columns: {gameId: $gameId, userId: $userId}, _set: $_set) {
+      gameId
+      clasificationId
+      id
+      isActive
+      playerTag
+      userId
+    }
+  }
+
+  mutation DeleteUserGame($gameId: Int!, $userId: Int!) {
+    deleteUserGame: delete_user_games_by_pk(gameId: $gameId, userId: $userId) {
+      id
+    }
+  }
+
+  query UserGameExists($gameId: Int_comparison_exp!, $playerTag: String_comparison_exp!) {
+    userGames: user_games(where: {gameId: $gameId, playerTag: $playerTag}) {
+      id
+      userId
+      gameId
+    }
+  }
+`
