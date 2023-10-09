@@ -162,8 +162,8 @@ export const operationProfileGame = `
     }
   }
 
-  query UserGameExists($gameId: Int_comparison_exp!, $playerTag: String_comparison_exp!) {
-    userGames: user_games(where: {gameId: $gameId, playerTag: $playerTag}) {
+  query UserGameExists($where: user_games_bool_exp!) {
+    userGames: user_games(where: $where) {
       id
       userId
       gameId

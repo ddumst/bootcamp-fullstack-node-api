@@ -42,8 +42,10 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
     operationProfileGame,
     'UserGameExists',
     {
-      "gameId": { "_eq": userGame.gameId },
-      "playerTag": { "_eq": userGame.playerTag }
+      "where": {
+        "gameId": { "_eq": userGame.gameId },
+        "playerTag": { "_eq": userGame.playerTag }
+      }
     }
   )
 
@@ -78,15 +80,20 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
 }
 
 const update = async ({ data: userGame, userId, token }: EditProfileSetProps<Partial<any>>): Promise<UserGame> => {
+  console.log('userGame', userGame);
   const { data: existPlayerTag } = await apgGraphQL(
     operationProfileGame,
     'UserGameExists',
     {
-      "gameId": { "_eq": userGame.gameId },
-      "playerTag": { "_eq": userGame.playerTag },
-      "userId": {"_neq": userId}
+      "where": {
+        "gameId": { "_eq": userGame.gameId },
+        "playerTag": { "_eq": userGame.playerTag },
+        "userId": {"_neq": userId}
+      }
     }
   )
+
+  console.log('existPlayerTag', existPlayerTag);
 
   if (existPlayerTag.userGames.length > 0) {
     throw getError({
