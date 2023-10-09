@@ -42,10 +42,8 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
     operationProfileGame,
     'UserGameExists',
     {
-      "where": {
-        "gameId": { "_eq": userGame.gameId },
-        "playerTag": { "_eq": userGame.playerTag }
-      }
+      "gameId": { "_eq": userGame.gameId },
+      "playerTag": { "_eq": userGame.playerTag }
     },
     token
   )

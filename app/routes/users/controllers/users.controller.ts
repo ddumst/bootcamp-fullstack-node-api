@@ -310,29 +310,6 @@ export class UsersController {
     const authToken = req.authToken;
     const { gameId, clasificationId, playerTag } = req.body;
 
-    const { data: existPlayerTag } = await apgGraphQL(
-      operationProfileGame,
-      'UserGameExists',
-      {
-        "where": {
-          "gameId": { "_eq": gameId },
-          "playerTag": { "_eq": playerTag }
-        }
-      },
-      authToken
-    )
-  
-    if (existPlayerTag.userGames.length > 0) {
-      throw getError({
-        title: "Player tag exists",
-        message: "Player tag exists",
-        response: {
-          status: 404,
-        },
-        code: 4052
-      })
-    }
-
     try {
       const insertedGame = await GamesEndpoints.insert({
         data: {
@@ -349,10 +326,7 @@ export class UsersController {
         })
       }
     } catch (error) {
-      return res.status(404).json({
-        message: 'Game not found',
-        code: 3050
-      })
+      return res.status(404).json(error)
     }
   }
 }
