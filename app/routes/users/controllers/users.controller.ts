@@ -314,11 +314,11 @@ export class UsersController {
       const userGames = await GamesEndpoints.get({
         userId: userId,
         token: authToken,
-        isEditing: isEditing
+        isEditing: isEditing === "true"
       });
 
       const gamesMapped = userGames.map((userGame) => {
-        if (isPrivate && userGame && userGame.isPrivate) {
+        if (isPrivate === "true" && userGame && userGame.isPrivate) {
           userGame.playerTag = '*******';
           userGame.clasification.name = '*******';
           userGame.clasification.slug = '*******';
