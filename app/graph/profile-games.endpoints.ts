@@ -38,14 +38,14 @@ const get = async ({
 }
 
 const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any>>): Promise<UserGame> => {
+  console.log('userGame', userGame);
   const { data: existPlayerTag } = await apgGraphQL(
     operationProfileGame,
     'UserGameExists',
     {
       "gameId": { "_eq": userGame.gameId },
       "playerTag": { "_eq": userGame.playerTag }
-    },
-    token
+    }
   )
 
   console.log('existPlayerTag', existPlayerTag);
