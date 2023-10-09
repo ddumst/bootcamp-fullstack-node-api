@@ -48,6 +48,8 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
     token
   )
 
+  console.log('existPlayerTag', existPlayerTag);
+
   if (existPlayerTag.userGames.length > 0) {
     throw getError({
       title: "Player tag exists",
