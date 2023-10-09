@@ -322,9 +322,7 @@ export class UsersController {
       });
 
       if (insertedGame) {
-        return res.json({
-          message: "Game inserted successfully"
-        })
+        return res.json(insertedGame)
       }
     } catch (error) {
       return res.status(400).json({
@@ -352,9 +350,7 @@ export class UsersController {
       });
 
       if (updatedGame) {
-        return res.json({
-          message: "Game updated successfully"
-        })
+        return res.json(updatedGame)
       }
     } catch (error) {
       return res.status(400).json({
