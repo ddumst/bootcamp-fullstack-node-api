@@ -326,7 +326,10 @@ export class UsersController {
         })
       }
     } catch (error) {
-      return res.status(404).json(error)
+      return res.status(400).json({
+        message: (error as RequestError).message,
+        code: (error as RequestError).code
+      })
     }
   }
 }
