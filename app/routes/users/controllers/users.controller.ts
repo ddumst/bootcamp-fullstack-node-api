@@ -333,4 +333,34 @@ export class UsersController {
       })
     }
   }
+
+  updateUserGame = async (req: any, res: express.Response) => {
+    const user = req.user;
+    const authToken = req.authToken;
+    const { input } = req.body;
+    const { gameId, clasificationId, playerTag } = input.userGame;
+
+    try {
+      const updatedGame = await GamesEndpoints.update({
+        data: {
+          gameId: +gameId,
+          clasificationId: +clasificationId,
+          playerTag: playerTag
+        },
+        userId: user.id,
+        token: authToken
+      });
+
+      if (updatedGame) {
+        return res.json({
+          message: "Game updated successfully"
+        })
+      }
+    } catch (error) {
+      return res.status(400).json({
+        message: (error as RequestError).message,
+        code: (error as RequestError).code
+      })
+    }
+  }
 }

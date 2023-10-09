@@ -38,7 +38,6 @@ const get = async ({
 }
 
 const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any>>): Promise<UserGame> => {
-  console.log('userGame', userGame);
   const { data: existPlayerTag } = await apgGraphQL(
     operationProfileGame,
     'UserGameExists',
@@ -47,8 +46,6 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
       "playerTag": { "_eq": userGame.playerTag }
     }
   )
-
-  console.log('existPlayerTag', existPlayerTag);
 
   if (existPlayerTag.userGames.length > 0) {
     throw getError({
@@ -59,7 +56,6 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
       },
       code: "VALIDATION_ERROR_PLAYER_TAG_EXISTS"
     })
-
   }
   
   const { data, errors } = await apgGraphQL(
@@ -82,6 +78,27 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
 }
 
 const update = async ({ data: userGame, userId, token }: EditProfileSetProps<Partial<any>>): Promise<UserGame> => {
+  const { data: existPlayerTag } = await apgGraphQL(
+    operationProfileGame,
+    'UserGameExists',
+    {
+      "gameId": { "_eq": userGame.gameId },
+      "playerTag": { "_eq": userGame.playerTag },
+      "userId": {"_neq": userId}
+    }
+  )
+
+  if (existPlayerTag.userGames.length > 0) {
+    throw getError({
+      title: "Player tag exists",
+      message: "Player tag exists",
+      response: {
+        status: 404,
+      },
+      code: "VALIDATION_ERROR_PLAYER_TAG_EXISTS"
+    })
+  }
+
   const { data, errors } = await apgGraphQL(
     operationProfileGame,
     'UpdateUserGame',
@@ -94,7 +111,10 @@ const update = async ({ data: userGame, userId, token }: EditProfileSetProps<Par
   )
 
   if (errors) {
-    throw getError(errors[0] as RequestError)
+    throw getError({
+      ...errors[0],
+      code: "VALIDATION_ERROR_UPDATE_USER_GAME"
+    } as RequestError)
   }
 
   return data.updatedUserGame;
