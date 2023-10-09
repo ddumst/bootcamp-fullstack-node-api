@@ -308,17 +308,17 @@ export class UsersController {
 
   getUserGames = async (req: any, res: express.Response) => {
     const authToken = req.authToken;
-    const { userId } = req.query;
+    const { userId, isEditing, isPrivate } = req.query;
 
     try {
       const userGames = await GamesEndpoints.get({
         userId: userId,
         token: authToken,
-        isEditing: false
+        isEditing: isEditing
       });
 
       const gamesMapped = userGames.map((userGame) => {
-        if (userGame && userGame.isPrivate) {
+        if (isPrivate && userGame && userGame.isPrivate) {
           userGame.playerTag = '*******';
           userGame.clasification.name = '*******';
           userGame.clasification.slug = '*******';

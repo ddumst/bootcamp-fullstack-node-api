@@ -16,7 +16,9 @@ const get = async ({
   token,
   isEditing = false
 }: any): Promise<UserGame[]> => {
-  const showOnlyActive = !isEditing ? { "isActive": { "_eq": true } } : {};
+  const showOnlyActive = !isEditing ? { 
+    "isActive": { "_eq": true },
+  } : {};
 
   const { data, errors } = await apgGraphQL(
     operationProfileGame,
