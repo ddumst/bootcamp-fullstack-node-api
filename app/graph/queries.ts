@@ -116,6 +116,7 @@ export const operationProfileGame = `
       gameId
       id
       isActive
+      isPrivate
       playerTag
       userId
       clasification {
@@ -140,6 +141,7 @@ export const operationProfileGame = `
       gameId
       id
       isActive
+      isPrivate
       playerTag
       userId
     }
@@ -151,6 +153,7 @@ export const operationProfileGame = `
       clasificationId
       id
       isActive
+      isPrivate
       playerTag
       userId
     }

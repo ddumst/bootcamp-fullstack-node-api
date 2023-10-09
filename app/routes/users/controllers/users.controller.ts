@@ -306,6 +306,37 @@ export class UsersController {
     const { roleId } = req.params;
   }
 
+  getUserGames = async (req: any, res: express.Response) => {
+    const authToken = req.authToken;
+    const { input } = req.body;
+    const { userId } = input.userGame;
+
+    try {
+      const userGames = await GamesEndpoints.get({
+        userId: userId,
+        token: authToken,
+        isEditing: false
+      });
+
+      const gamesMapped = userGames.map((userGame) => {
+        if (userGame && userGame.isPrivate) {
+          userGame.playerTag = '*******';
+          userGame.clasification.name = '*******';
+          userGame.clasification.slug = '*******';
+        }
+
+        return userGame;
+      });
+
+      return res.json(gamesMapped);
+    } catch (error) {
+      return res.status(400).json({
+        message: (error as RequestError).message,
+        code: (error as RequestError).code
+      })
+    }
+  }
+
   createUserGame = async (req: any, res: express.Response) => {
     const authToken = req.authToken;
     const { input } = req.body;

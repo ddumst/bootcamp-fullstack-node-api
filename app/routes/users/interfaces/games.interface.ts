@@ -5,6 +5,7 @@ export interface UserGame {
   clasificationId: number;
   playerTag: string;
   isActive: boolean;
+  isPrivate: boolean;
   game: Game;
   clasification: Clasification;
 }
