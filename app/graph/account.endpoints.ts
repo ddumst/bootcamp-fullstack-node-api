@@ -8,7 +8,7 @@ export interface RequestError {
   },
   title: string,
   message: string,
-  code?: number
+  code?: string | number
 }
 
 export const getError = ({ title, message, response }: RequestError): RequestError => ({ title, message, response })

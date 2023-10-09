@@ -311,8 +311,6 @@ export class UsersController {
     const { input } = req.body;
     const { gameId, clasificationId, playerTag } = input.userGame;
 
-    console.log(req.body);
-
     try {
       const insertedGame = await GamesEndpoints.insert({
         data: {

@@ -57,7 +57,7 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
       response: {
         status: 404,
       },
-      code: 4052
+      code: "VALIDATION_ERROR_PLAYER_TAG_EXISTS"
     })
 
   }
@@ -74,7 +74,7 @@ const insert = async ({ data: userGame, token }: EditProfileSetProps<Partial<any
   if (errors) {
     throw getError({
       ...errors[0],
-      code: 4050
+      code: "VALIDATION_ERROR_CREATE_USER_GAME"
     } as RequestError)
   }
 
