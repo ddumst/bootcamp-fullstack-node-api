@@ -308,7 +308,8 @@ export class UsersController {
 
   createUserGame = async (req: any, res: express.Response) => {
     const authToken = req.authToken;
-    const { gameId, clasificationId, playerTag } = req.body;
+    const { input } = req.body;
+    const { gameId, clasificationId, playerTag } = input.userGame;
 
     console.log(req.body);
 
