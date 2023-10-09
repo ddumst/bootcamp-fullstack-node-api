@@ -2,12 +2,14 @@ import express from "express";
 import sizeOf from "image-size";
 import AWS from "aws-sdk";
 import crypto from 'crypto';
-import { AccountEndpoints, RequestError } from '@graph/account.endpoints';
+import { AccountEndpoints, RequestError, getError } from '@graph/account.endpoints';
 import { FileEndpoints } from "@graph/file.endpoints";
 import getYoutubeChannelIdFromUrl from "@common/utils/getYoutubeChannelIdFromUrl";
 import { VideosEndpoints } from "@graph/profile-videos.endpoints";
 import parse from "rss-to-json";
 import { GamesEndpoints } from "@graph/profile-games.endpoints";
+import { apgGraphQL } from "@graph/apgApi";
+import { operationProfileGame } from "@graph/queries";
 
 export class UsersController {
   constructor() {}
@@ -307,6 +309,29 @@ export class UsersController {
   createUserGame = async (req: any, res: express.Response) => {
     const authToken = req.authToken;
     const { gameId, clasificationId, playerTag } = req.body;
+
+    const { data: existPlayerTag } = await apgGraphQL(
+      operationProfileGame,
+      'UserGameExists',
+      {
+        "where": {
+          "gameId": { "_eq": gameId },
+          "playerTag": { "_eq": playerTag }
+        }
+      },
+      authToken
+    )
+  
+    if (existPlayerTag.userGames.length > 0) {
+      throw getError({
+        title: "Player tag exists",
+        message: "Player tag exists",
+        response: {
+          status: 404,
+        },
+        code: 4052
+      })
+    }
 
     try {
       const insertedGame = await GamesEndpoints.insert({
