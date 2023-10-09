@@ -308,8 +308,7 @@ export class UsersController {
 
   getUserGames = async (req: any, res: express.Response) => {
     const authToken = req.authToken;
-    const { input } = req.body;
-    const { userId } = input.userGame;
+    const { userId } = req.query;
 
     try {
       const userGames = await GamesEndpoints.get({
