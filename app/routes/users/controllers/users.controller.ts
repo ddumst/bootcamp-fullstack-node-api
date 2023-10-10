@@ -374,8 +374,8 @@ export class UsersController {
           gameId: +gameId,
           clasificationId: +clasificationId,
           playerTag: playerTag,
-          isActive: isActive === "true",
-          isPrivate: isPrivate === "true"
+          isActive: isActive,
+          isPrivate: isPrivate
         },
         userId: user.id,
         token: authToken
