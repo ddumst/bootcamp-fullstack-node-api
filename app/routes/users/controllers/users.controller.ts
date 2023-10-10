@@ -366,14 +366,16 @@ export class UsersController {
     const user = req.user;
     const authToken = req.authToken;
     const { input } = req.body;
-    const { gameId, clasificationId, playerTag } = input.userGame;
+    const { gameId, clasificationId, playerTag, isActive, isPrivate } = input.userGame;
 
     try {
       const updatedGame = await GamesEndpoints.update({
         data: {
           gameId: +gameId,
           clasificationId: +clasificationId,
-          playerTag: playerTag
+          playerTag: playerTag,
+          isActive: isActive === "true",
+          isPrivate: isPrivate === "true"
         },
         userId: user.id,
         token: authToken
