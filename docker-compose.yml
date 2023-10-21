@@ -59,7 +59,3 @@ services:
       - "traefik.http.routers.apg-platform-api-dev.rule=Host(`platformdev.apg.gg`)"
       - "traefik.http.routers.apg-platform-api-dev.entrypoints=websecure"
       - "traefik.http.routers.apg-platform-api-dev.tls.certresolver=apgplatformdev"
-      - "traefik.http.routers.apg-platform-api-dev.middlewares=cors"
-      - "traefik.http.middlewares.cors.headers.accesscontrolallowmethods=GET,HEAD,PUT,PATCH,POST,DELETE"
-      - "traefik.http.middlewares.cors.headers.accesscontrolallowheaders=Content-Type,Authorization"
-      - "traefik.http.middlewares.cors.headers.accesscontrolalloworigin=https://u31439110.apg.gg"
