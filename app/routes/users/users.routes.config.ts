@@ -25,6 +25,7 @@ export class UsersRoutes extends CommonRoutesConfig implements configureRoutes {
     this.app.post("/user/:userId/youtube", [jwtMiddleware.validReqUser, usersController.saveYoutubeChannel]);
     this.app.post("/user/:userId/:imageType", [jwtMiddleware.validReqUser, usersController.upload]);
     this.app.post("/upload/:fileType", [jwtMiddleware.validReqUser, usersController.uploadFile]);
+    this.app.post("/gav/upload/:fileType", [jwtMiddleware.validReqGavUser, usersController.uploadFile]);
     this.app.post("/uploads", [jwtMiddleware.validReqUser, usersController.uploadFiles]);
 
     this.app.get("/youtube/:channelId", [usersController.getYoutubeVideos]);
