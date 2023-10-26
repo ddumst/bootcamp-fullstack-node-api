@@ -8,8 +8,8 @@ import getYoutubeChannelIdFromUrl from "@common/utils/getYoutubeChannelIdFromUrl
 import { VideosEndpoints } from "@graph/profile-videos.endpoints";
 import parse from "rss-to-json";
 import { GamesEndpoints } from "@graph/profile-games.endpoints";
-import { apgGraphQL } from "@graph/apgApi";
-import { operationProfileGame } from "@graph/queries";
+import { Pool } from 'pg';
+import pool from "@common/services/postgres.service";
 
 export class UsersController {
   constructor() {}
@@ -20,7 +20,7 @@ export class UsersController {
     const imageType = req.params.imageType;
     const user = req.user;
     const authToken = req.authToken;
-    const timestamp = Date.now().toString();
+    const timestamp = Date.now().toString();   
 
     if (userId !== user.id) return res.status(401).json({ error: 'No tienes permiso para realizar esta acción.' });
 
@@ -299,6 +299,44 @@ export class UsersController {
         message: 'Can\'t fetch videos from this channel',
         code: 3053
       })
+    }
+  }
+
+  visitProfile = async (req: any, res: express.Response) => {
+    try {
+      const { userId, visitedUserId } = req.body;
+
+      if (userId === visitedUserId) {
+        return res.json({
+          code: 'SAME_USER_ID',
+          message: 'No, no, no! Tus visitas no cuentan'
+        });
+      }
+  
+      // Verificar si ya se ha registrado una visita en las últimas 24 horas
+      const previousVisit = await pool.query(
+        'SELECT * FROM user_profile_visits WHERE visitor_user_id = $1 AND visited_user_id = $2 AND visit_date >= NOW() - INTERVAL \'1 day\'',
+        [userId, visitedUserId]
+      );
+  
+      if (previousVisit.rows.length === 0) {
+        // No se ha registrado una visita en las últimas 24 horas, registrar la visita
+        await pool.query(
+          'INSERT INTO user_profile_visits (visited_user_id, visitor_user_id, visit_date) VALUES ($1, $2, NOW())',
+          [visitedUserId, userId]
+        );
+  
+        res.json({ message: 'Visita registrada con éxito' });
+      } else {
+        // Ya se ha registrado una visita en las últimas 24 horas, no se permite registrar otra visita
+        res.json({ message: 'Ya has registrado una visita en las últimas 24 horas' });
+      }
+    } catch (error) {
+      console.error('Error al registrar visita:', error);
+      res.status(500).json({ 
+        code: 'FAILED_INSERT_VISIT',
+        message: 'Error al registrar visita'
+      });
     }
   }
 

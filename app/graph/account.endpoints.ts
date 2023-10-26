@@ -14,19 +14,19 @@ export interface RequestError {
 export const getError = ({ title, message, response }: RequestError): RequestError => ({ title, message, response })
 
 const getUserAccount = async (userId: number): Promise<ApgUser> => {
-  try {
-    const { data } = await apgGraphQL(
-      operationGetAccountUser,
-      'GetUserAccount',
-      {
-        "id": userId
-      }
-    )
+  const { data, errors } = await apgGraphQL(
+    operationGetAccountUser,
+    'GetUserAccount',
+    {
+      "id": userId
+    }
+  )
 
-    return data.user;
-  } catch (error) {
-    throw getError(error as RequestError)
+  if (errors) {
+    throw getError(errors[0] as RequestError)
   }
+
+  return data.user;
 }
 
 const updateUserAccount = async (userId: number, set: Partial<ApgUser>, token: string): Promise<ApgUser> => {
