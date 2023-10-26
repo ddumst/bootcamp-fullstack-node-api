@@ -37,7 +37,7 @@ process.on("uncaughtException", (err) => {
 app.use(bodyparser.json({ limit: "5mb" }));
 
 app.use(cors({
-  origin: `${process.env.DOMAIN_URL}`, // Especifica el origen permitido
+  origin: [`${process.env.DOMAIN_URL}`, `${process.env.DOMAIN_URL_DEV}`, `${process.env.DOMAIN_URL_GAV}`, `${process.env.DOMAIN_URL_DEV_GAV}`],
 	credentials: true,
   exposedHeaders: ['apgstats_auth_token']
 }));
