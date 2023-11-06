@@ -119,6 +119,7 @@ export const operationProfileGame = `
       isPrivate
       playerTag
       userId
+      order
       clasification {
         image
         slug
