@@ -111,7 +111,7 @@ export const operationProfileVideo = `
 
 export const operationProfileGame = `
   query GetUserGames($where: user_games_bool_exp!) {
-    userGames: user_games(order_by: {order: asc, createdAt: desc}, where: $where) {
+    userGames: user_games(order_by: {order: asc}, where: $where) {
       clasificationId
       gameId
       id
