@@ -377,14 +377,15 @@ export class UsersController {
   createUserGame = async (req: any, res: express.Response) => {
     const authToken = req.authToken;
     const { input } = req.body;
-    const { gameId, clasificationId, playerTag } = input.userGame;
+    const { gameId, clasificationId, playerTag, order } = input.userGame;
 
     try {
       const insertedGame = await GamesEndpoints.insert({
         data: {
           gameId: +gameId,
           clasificationId: +clasificationId,
-          playerTag: playerTag
+          playerTag: playerTag,
+          order: +order
         },
         token: authToken
       });
