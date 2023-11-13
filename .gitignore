@@ -5,6 +5,7 @@ package-lock.json
 data
 api
 backup
+mongo-data
 
 # misc
 .DS_Store
