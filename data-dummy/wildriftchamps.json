@@ -1,0 +1,2997 @@
+[{
+  "_id": {
+    "$oid": "60a2d1429f631413804ad409"
+  },
+  "name": "Ahri",
+  "slug": "ahri",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/ahri.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/ahri.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/ahri.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/ahri.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60a2d1429f631413804ad40a"
+  },
+  "name": "Akali",
+  "slug": "akali",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/akali.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/akali.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/akali.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/akali.jpg",
+  "skills": [
+    {
+      "name": "FIVE POINT STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akali/akali-five-point-strike.png"
+    },
+    {
+      "name": "TWILIGHT SHROUD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akali/akali-twilight-shroud.png"
+    },
+    {
+      "name": "SHURIKEN FLIP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akali/akali-shuriken-flip.png"
+    },
+    {
+      "name": "PERFECT EXECUTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akali/akali-perfect-execution.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60a2d1429f631413804ad40b"
+  },
+  "name": "Alistar",
+  "slug": "alistar",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/alistar.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/alistar.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/alistar.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/alistar.jpg",
+  "skills": [
+    {
+      "name": "PULVERIZE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/alistar/alistar-pulverize.png"
+    },
+    {
+      "name": "HEADBUTT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/alistar/alistar-headbutt.png"
+    },
+    {
+      "name": "TRAMPLE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/alistar/alistar-trample.png"
+    },
+    {
+      "name": "UNBREAKABLE WILL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/alistar/alistar-unbreakable-will.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60a83bff286c1e281457e027"
+  },
+  "name": "Amumu",
+  "slug": "amumu",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/amumu.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/amumu.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/amumu.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/amumu.jpg",
+  "skills": [
+    {
+      "name": "BANDAGE TOSS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/amumu/amumu-bandage-toss.png"
+    },
+    {
+      "name": "DESPAIR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/amumu/amumu-despair.png"
+    },
+    {
+      "name": "TANTRUM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/amumu/amumu-tantrum.png"
+    },
+    {
+      "name": "CURSE OF THE SAD MUMMY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/amumu/amumu-curse-of-the-sad-mummy.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60a83bff286c1e281457e028"
+  },
+  "name": "Annie",
+  "slug": "annie",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/annie.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/annie.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/annie.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/annie.jpg",
+  "skills": [
+    {
+      "name": "DISINTEGRATE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/annie/annie-disintegrate.png"
+    },
+    {
+      "name": "INCINERATE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/annie/annie-incinerate.png"
+    },
+    {
+      "name": "MOLTEN SHIELD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/annie/annie-molten-shield.png"
+    },
+    {
+      "name": "SUMMON: TIBBERS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/annie/annie-summon-tibbers.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60a83bff286c1e281457e029"
+  },
+  "name": "Ashe",
+  "slug": "ashe",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/ashe.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/ashe.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/ashe.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/ashe.jpg",
+  "skills": [
+    {
+      "name": "RANGER'S FOCUS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ashe/ashe-rangers-focus.png"
+    },
+    {
+      "name": "VOLLEY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ashe/ashe-volley.png"
+    },
+    {
+      "name": "HAWKSHOT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ashe/ashe-hawkshot.png"
+    },
+    {
+      "name": "ENCHANTED CRYSTAL ARROW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ashe/ashe-enchanted-crystal-arrow.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb2457af0fe0d708042f9"
+  },
+  "name": "Aurelion Sol",
+  "slug": "aurelion-sol",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/aurelion-sol.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/aurelionsol.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/aurelionsol.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/aurelionsol.jpg",
+  "skills": [
+    {
+      "name": "STARSURGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/aurelion-sol/aurelion-sol-starsurge.png"
+    },
+    {
+      "name": "CELESTIAL EXPANSION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/aurelion-sol/aurelion-sol-celestial-expansion.png"
+    },
+    {
+      "name": "COMET OF LEGEND",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/aurelion-sol/aurelion-sol-comet-of-legend.png"
+    },
+    {
+      "name": "VOICE OF LIGHT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/aurelion-sol/aurelion-sol-voice-of-light.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb2457af0fe0d708042fa"
+  },
+  "name": "Blitzcrank",
+  "slug": "blitzcrank",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/blitzcrank.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/blitzcrank.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/blitzcrank.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/blitzcrank.jpg",
+  "skills": [
+    {
+      "name": "ROCKET GRAB",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/blitzcrank/blitzcrank-rocket-grab.png"
+    },
+    {
+      "name": "OVERDRIVE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/blitzcrank/blitzcrank-overdrive.png"
+    },
+    {
+      "name": "POWER FIST",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/blitzcrank/blitzcrank-power-fist.png"
+    },
+    {
+      "name": "STATIC FIELD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/blitzcrank/blitzcrank-static-field.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb2457af0fe0d708042fb"
+  },
+  "name": "Braum",
+  "slug": "braum",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/braum.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/braum.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/braum.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/braum.jpg",
+  "skills": [
+    {
+      "name": "WINTER'S BITE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/braum/braum-winters-bite.png"
+    },
+    {
+      "name": "STAND BEHIND ME",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/braum/braum-stand-behind-me.png"
+    },
+    {
+      "name": "UNBREAKABLE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/braum/braum-unbreakable.png"
+    },
+    {
+      "name": "GLACIAL FISSURE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/braum/braum-glacial-fissure.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb2457af0fe0d708042fc"
+  },
+  "name": "Camille",
+  "slug": "camille",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/camille.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/camille.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/camille.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/camille.jpg",
+  "skills": [
+    {
+      "name": "PRECISION PROTOCOL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/camille/camille-precision-protocol.png"
+    },
+    {
+      "name": "TACTICAL SWEEP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/camille/camille-tactical-sweep.png"
+    },
+    {
+      "name": "HOOKSHOT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/camille/camille-hookshot.png"
+    },
+    {
+      "name": "HEXTECH ULTIMATUM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/camille/camille-hextech-ultimatum.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb2457af0fe0d708042fd"
+  },
+  "name": "Corki",
+  "slug": "corki",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/corki.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/corki.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/corki.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/corki.jpg",
+  "skills": [
+    {
+      "name": "PHOSPHORUS BOMB",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/corki/corki-phosphorus-bomb.png"
+    },
+    {
+      "name": "VALKYRIE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/corki/corki-valkyrie.png"
+    },
+    {
+      "name": "GATLING GUN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/corki/corki-gatling-gun.png"
+    },
+    {
+      "name": "MISSILE BARRAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/corki/corki-missile-barrage.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb4967af0fe0d708042fe"
+  },
+  "name": "Darius",
+  "slug": "darius",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/darius.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/darius.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/darius.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/darius.jpg",
+  "skills": [
+    {
+      "name": "DECIMATE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/darius/darius-decimate.png"
+    },
+    {
+      "name": "CRIPPLING STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/darius/darius-crippling-strike.png"
+    },
+    {
+      "name": "APPREHEND",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/darius/darius-apprehend.png"
+    },
+    {
+      "name": "NOXIAN GUILLOTINE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/darius/darius-noxian-guillotine.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb4967af0fe0d708042ff"
+  },
+  "name": "Diana",
+  "slug": "diana",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/diana.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/diana.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/diana.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/diana.jpg",
+  "skills": [
+    {
+      "name": "CRESCENT STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/diana/diana-crescent-strike.png"
+    },
+    {
+      "name": "PALE CASCADE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/diana/diana-pale-cascade.png"
+    },
+    {
+      "name": "LUNAR RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/diana/diana-lunar-rush.png"
+    },
+    {
+      "name": "MOONFALL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/diana/diana-moonfall.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb4967af0fe0d70804300"
+  },
+  "name": "Draven",
+  "slug": "draven",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/draven.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/draven.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/draven.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/draven.jpg",
+  "skills": [
+    {
+      "name": "SPINNING AXE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/draven/draven-spinning-axe.png"
+    },
+    {
+      "name": "BLOOD RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/draven/draven-blood-rush.png"
+    },
+    {
+      "name": "STAND ASIDE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/draven/draven-stand-aside.png"
+    },
+    {
+      "name": "WHIRLING DEATH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/draven/draven-whirling-death.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb4967af0fe0d70804301"
+  },
+  "name": "Dr. Mundo",
+  "slug": "dr-mundo",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/dr-mundo.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/drmundo.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/drmundo.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/drmundo.jpg",
+  "skills": [
+    {
+      "name": "INFECTED CLEAVER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/dr-mundo/dr-mundo-infected-cleaver.png"
+    },
+    {
+      "name": "BURNING AGONY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/dr-mundo/dr-mundo-burning-agony.png"
+    },
+    {
+      "name": "MASOCHISM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/dr-mundo/dr-mundo-masochism.png"
+    },
+    {
+      "name": "SADISM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/dr-mundo/dr-mundo-sadism.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abb4967af0fe0d70804302"
+  },
+  "name": "Evelynn",
+  "slug": "evelynn",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/evelynn.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/evelynn.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/evelynn.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/evelynn.jpg",
+  "skills": [
+    {
+      "name": "HATE SPIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/evelynn/evelynn-hate-spike.png"
+    },
+    {
+      "name": "ALLURE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/evelynn/evelynn-allure.png"
+    },
+    {
+      "name": "WHIPLASH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/evelynn/evelynn-whiplash.png"
+    },
+    {
+      "name": "LAST CARESS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/evelynn/evelynn-last-caress.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804303"
+  },
+  "name": "Ezreal",
+  "slug": "ezreal",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/ezreal.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/ezreal.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/ezreal.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/ezreal.jpg",
+  "skills": [
+    {
+      "name": "MYSTIC SHOT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ezreal/ezreal-mystic-shot.png"
+    },
+    {
+      "name": "ESSENCE FLUX",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ezreal/ezreal-essence-flux.png"
+    },
+    {
+      "name": "ARCANE SHIFT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ezreal/ezreal-arcane-shift.png"
+    },
+    {
+      "name": "TRUESHOT BARRAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ezreal/ezreal-trueshot-barrage.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804304"
+  },
+  "name": "Fiora",
+  "slug": "fiora",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/fiora.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/fiora.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/fiora.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/fiora.jpg",
+  "skills": [
+    {
+      "name": "LUNGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fiora/fiora-lunge.png"
+    },
+    {
+      "name": "RIPOSTE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fiora/fiora-riposte.png"
+    },
+    {
+      "name": "BLADEWORK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fiora/fiora-bladework.png"
+    },
+    {
+      "name": "GRAND CHALLENGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fiora/fiora-grand-challenge.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804305"
+  },
+  "name": "Fizz",
+  "slug": "fizz",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/fizz.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/fizz.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/fizz.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/fizz.jpg",
+  "skills": [
+    {
+      "name": "URCHIN STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fizz/fizz-urchin-strike.png"
+    },
+    {
+      "name": "RENDING WAVE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fizz/fizz-rending-wave.png"
+    },
+    {
+      "name": "PLAYFUL / TRICKSTER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fizz/fizz-playful-trickster.png"
+    },
+    {
+      "name": "CHUM THE WATERS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/fizz/fizz-chum-the-waters.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804306"
+  },
+  "name": "Galio",
+  "slug": "galio",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/galio.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/galio.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/galio.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/galio.jpg",
+  "skills": [
+    {
+      "name": "WINDS OF WAR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/galio/galio-winds-of-war.png"
+    },
+    {
+      "name": "SHIELD OF DURAND",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/galio/galio-shield-of-durand.png"
+    },
+    {
+      "name": "JUSTICE PUNCH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/galio/galio-justice-punch.png"
+    },
+    {
+      "name": "HERO'S ENTRANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/galio/galio-heros-entrance.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804307"
+  },
+  "name": "Garen",
+  "slug": "garen",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/garen.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/garen.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/garen.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/garen.jpg",
+  "skills": [
+    {
+      "name": "DECISIVE STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/garen/garen-decisive-strike.png"
+    },
+    {
+      "name": "COURAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/garen/garen-courage.png"
+    },
+    {
+      "name": "JUDGMENT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/garen/garen-judgment.png"
+    },
+    {
+      "name": "DEMACIAN JUSTICE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/garen/garen-demacian-justice.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804308"
+  },
+  "name": "Gragas",
+  "slug": "gragas",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/gragas.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/gragas.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/gragas.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/gragas.jpg",
+  "skills": [
+    {
+      "name": "BARREL ROLL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gragas/gragas-barrel-roll.png"
+    },
+    {
+      "name": "DRUNKEN RAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gragas/gragas-drunken-rage.png"
+    },
+    {
+      "name": "BODY SLAM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gragas/gragas-body-slam.png"
+    },
+    {
+      "name": "EXPLOSIVE CASK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gragas/gragas-explosive-cask.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d70804309"
+  },
+  "name": "Graves",
+  "slug": "graves",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/graves.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/graves.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/graves.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/graves.jpg",
+  "skills": [
+    {
+      "name": "END OF THE LINE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/graves/graves-end-of-the-line.png"
+    },
+    {
+      "name": "SMOKE SCREEN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/graves/graves-smoke-screen.png"
+    },
+    {
+      "name": "QUICKDRAW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/graves/graves-quickdraw.png"
+    },
+    {
+      "name": "COLLATERAL DAMAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/graves/graves-collateral-damage.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbb567af0fe0d7080430a"
+  },
+  "name": "Janna",
+  "slug": "janna",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/janna.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/janna.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/janna.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/janna.jpg",
+  "skills": [
+    {
+      "name": "HOWLING GALE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/janna/janna-howling-gale.png"
+    },
+    {
+      "name": "ZEPHYR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/janna/janna-zephyr.png"
+    },
+    {
+      "name": "EYE OF THE STORM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/janna/janna-eye-of-the-storm.png"
+    },
+    {
+      "name": "MONSOON",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/janna/janna-monsoon.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d7080430b"
+  },
+  "name": "Jarvan IV",
+  "slug": "jarvan-iv",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/jarvan-iv.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/jarvaniv.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/jarvaniv.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/jarvaniv.jpg",
+  "skills": [
+    {
+      "name": "DRAGON STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jarvan-iv/jarvan-iv-dragon-strike.png"
+    },
+    {
+      "name": "GOLDEN AEGIS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jarvan-iv/jarvan-iv-golden-aegis.png"
+    },
+    {
+      "name": "DEMACIAN STANDARD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jarvan-iv/jarvan-iv-demacian-standard.png"
+    },
+    {
+      "name": "CATACLYSM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jarvan-iv/jarvan-iv-cataclysm.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d7080430c"
+  },
+  "name": "Jax",
+  "slug": "jax",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/jax.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/jax.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/jax.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/jax.jpg",
+  "skills": [
+    {
+      "name": "LEAP STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jax/jax-leap-strike.png"
+    },
+    {
+      "name": "EMPOWER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jax/jax-empower.png"
+    },
+    {
+      "name": "COUNTER STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jax/jax-counter-strike.png"
+    },
+    {
+      "name": "GRANDMASTER'S MIGHT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jax/jax-grandmasters-might.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d7080430d"
+  },
+  "name": "Jhin",
+  "slug": "jhin",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/jhin.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/jhin.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/jhin.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/jhin.jpg",
+  "skills": [
+    {
+      "name": "DANCING GRENADE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jhin/jhin-dancing-grenade.png"
+    },
+    {
+      "name": "DEADLY FLOURISH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jhin/jhin-deadly-flourish.png"
+    },
+    {
+      "name": "CAPTIVE AUDIENCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jhin/jhin-captive-audience.png"
+    },
+    {
+      "name": "CURTAIN CALL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jhin/jhin-curtain-call.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d7080430e"
+  },
+  "name": "Jinx",
+  "slug": "jinx",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/jinx.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/jinx.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/jinx.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/jinx.jpg",
+  "skills": [
+    {
+      "name": "SWITCHEROO!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jinx/jinx-switcheroo.png"
+    },
+    {
+      "name": "ZAP!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jinx/jinx-zap.png"
+    },
+    {
+      "name": "FLAME CHOMPERS!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jinx/jinx-flame-chompers.png"
+    },
+    {
+      "name": "SUPER MEGA DEATH ROCKET!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jinx/jinx-super-mega-death-rocket.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d7080430f"
+  },
+  "name": "Kai'Sa",
+  "slug": "kaisa",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/kaisa.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/kaisa.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/kaisa.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/kaisa.jpg",
+  "skills": [
+    {
+      "name": "ICATHIAN RAIN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kaisa/kaisa-icathian-rain.png"
+    },
+    {
+      "name": "VOID SEEKER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kaisa/kaisa-void-seeker.png"
+    },
+    {
+      "name": "SUPERCHARGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kaisa/kaisa-supercharge.png"
+    },
+    {
+      "name": "KILLER INSTINCT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kaisa/kaisa-killer-instinct.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d70804310"
+  },
+  "name": "Katarina",
+  "slug": "katarina",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/katarina.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/katarina.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/katarina.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/katarina.jpg",
+  "skills": [
+    {
+      "name": "BOUNCING BLADES",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/katarina/katarina-bouncing-blades.png"
+    },
+    {
+      "name": "PREPARATION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/katarina/katarina-preparation.png"
+    },
+    {
+      "name": "SHUNPO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/katarina/katarina-shunpo.png"
+    },
+    {
+      "name": "DEATH LOTUS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/katarina/katarina-death-lotus.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d70804311"
+  },
+  "name": "Kennen",
+  "slug": "kennen",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/kennen.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/kennen.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/kennen.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/kennen.jpg",
+  "skills": [
+    {
+      "name": "THUNDERING SHURIKEN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kennen/kennen-thundering-shuriken.png"
+    },
+    {
+      "name": "ELECTRICAL SURGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kennen/kennen-electrical-surge.png"
+    },
+    {
+      "name": "LIGHTNING RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kennen/kennen-lightning-rush.png"
+    },
+    {
+      "name": "SLICING MAELSTROM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kennen/kennen-slicing-maelstrom.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abbf8e7af0fe0d70804312"
+  },
+  "name": "Khazix",
+  "slug": "khazix",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/khazix.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/khazix.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/khazix.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/khazix.jpg",
+  "skills": [
+    {
+      "name": "TASTE THEIR FEAR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/khazix/khazix-taste-their-fear.png"
+    },
+    {
+      "name": "VOID SPIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/khazix/khazix-void-spike.png"
+    },
+    {
+      "name": "LEAP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/khazix/khazix-leap.png"
+    },
+    {
+      "name": "VOID ASSAULT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/khazix/khazix-void-assault.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804313"
+  },
+  "name": "Lee Sin",
+  "slug": "lee-sin",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/lee-sin.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/leesin.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/leesin.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/leesin.jpg",
+  "skills": [
+    {
+      "name": "SONIC WAVE / RESONATING STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lee-sin/lee-sin-sonic-wave-resonating-strike.png"
+    },
+    {
+      "name": "SAFEGUARD / IRON WILL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lee-sin/lee-sin-safeguard-iron-will.png"
+    },
+    {
+      "name": "TEMPEST / CRIPPLE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lee-sin/lee-sin-tempest-cripple.png"
+    },
+    {
+      "name": "DRAGON'S RAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lee-sin/lee-sin-dragons-rage.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804314"
+  },
+  "name": "Leona",
+  "slug": "leona",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/leona.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/leona.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/leona.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/leona.jpg",
+  "skills": [
+    {
+      "name": "SHIELD OF DAYBREAK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/leona/leona-shield-of-daybreak.png"
+    },
+    {
+      "name": "ECLIPSE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/leona/leona-eclipse.png"
+    },
+    {
+      "name": "ZENITH BLADE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/leona/leona-zenith-blade.png"
+    },
+    {
+      "name": "SOLAR FLARE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/leona/leona-solar-flare.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804315"
+  },
+  "name": "Lulu",
+  "slug": "lulu",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/lulu.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/lulu.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/lulu.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/lulu.jpg",
+  "skills": [
+    {
+      "name": "GLITTERLANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lulu/lulu-glitterlance.png"
+    },
+    {
+      "name": "WHIMSY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lulu/lulu-whimsy.png"
+    },
+    {
+      "name": "HELP, PIX!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lulu/lulu-help-pix.png"
+    },
+    {
+      "name": "WILD GROWTH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lulu/lulu-wild-growth.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804316"
+  },
+  "name": "Lux",
+  "slug": "lux",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/lux.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/lux.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/lux.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/lux.jpg",
+  "skills": [
+    {
+      "name": "LIGHT BINDING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lux/lux-light-binding.png"
+    },
+    {
+      "name": "PRISMATIC BARRIER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lux/lux-prismatic-barrier.png"
+    },
+    {
+      "name": "LUCENT SINGULARITY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lux/lux-lucent-singularity.png"
+    },
+    {
+      "name": "FINAL SPARK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lux/lux-final-spark.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804317"
+  },
+  "name": "Malphite",
+  "slug": "malphite",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/malphite.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/malphite.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/malphite.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/malphite.jpg",
+  "skills": [
+    {
+      "name": "SEISMIC SHARD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/malphite/malphite-seismic-shard.png"
+    },
+    {
+      "name": "THUNDERCLAP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/malphite/malphite-thunderclap.png"
+    },
+    {
+      "name": "GROUND SLAM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/malphite/malphite-ground-slam.png"
+    },
+    {
+      "name": "UNSTOPPABLE FORCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/malphite/malphite-unstoppable-force.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804318"
+  },
+  "name": "Master Yi",
+  "slug": "master-yi",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/master-yi.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/masteryi.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/masteryi.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/masteryi.jpg",
+  "skills": [
+    {
+      "name": "ALPHA STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/master-yi/master-yi-alpha-strike.png"
+    },
+    {
+      "name": "MEDITATE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/master-yi/master-yi-meditate.png"
+    },
+    {
+      "name": "WUJU STYLE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/master-yi/master-yi-wuju-style.png"
+    },
+    {
+      "name": "HIGHLANDER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/master-yi/master-yi-highlander.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d70804319"
+  },
+  "name": "Miss Fortune",
+  "slug": "miss-fortune",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/miss-fortune.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/missfortune.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/missfortune.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/missfortune.jpg",
+  "skills": [
+    {
+      "name": "DOUBLE UP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/miss-fortune/miss-fortune-double-up.png"
+    },
+    {
+      "name": "STRUT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/miss-fortune/miss-fortune-strut.png"
+    },
+    {
+      "name": "MAKE IT RAIN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/miss-fortune/miss-fortune-make-it-rain.png"
+    },
+    {
+      "name": "BULLET TIME",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/miss-fortune/miss-fortune-bullet-time.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abc26f7af0fe0d7080431a"
+  },
+  "name": "Nami",
+  "slug": "nami",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/nami.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/nami.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/nami.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/nami.jpg",
+  "skills": [
+    {
+      "name": "AQUA PRISON",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nami/nami-aqua-prison.png"
+    },
+    {
+      "name": "EBB AND FLOW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nami/nami-ebb-and-flow.png"
+    },
+    {
+      "name": "TIDECALLER'S BLESSING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nami/nami-tidecallers-blessing.png"
+    },
+    {
+      "name": "TIDAL WAVE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nami/nami-tidal-wave.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e4656a"
+  },
+  "name": "Nasus",
+  "slug": "nasus",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/nasus.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/nasus.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/nasus.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/nasus.jpg",
+  "skills": [
+    {
+      "name": "SIPHONING STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nasus/nasus-siphoning-strike.png"
+    },
+    {
+      "name": "WITHER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nasus/nasus-wither.png"
+    },
+    {
+      "name": "SPIRIT FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nasus/nasus-spirit-fire.png"
+    },
+    {
+      "name": "FURY OF THE SANDS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nasus/nasus-fury-of-the-sands.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e4656b"
+  },
+  "name": "Olaf",
+  "slug": "olaf",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/olaf.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/olaf.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/olaf.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/olaf.jpg",
+  "skills": [
+    {
+      "name": "UNDERTOW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/olaf/olaf-undertow.png"
+    },
+    {
+      "name": "VICIOUS STRIKES",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/olaf/olaf-vicious-strikes.png"
+    },
+    {
+      "name": "RECKLESS SWING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/olaf/olaf-reckless-swing.png"
+    },
+    {
+      "name": "RAGNAROK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/olaf/olaf-ragnarok.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e4656c"
+  },
+  "name": "Orianna",
+  "slug": "orianna",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/orianna.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/orianna.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/orianna.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/orianna.jpg",
+  "skills": [
+    {
+      "name": "COMMAND: ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/orianna/orianna-command-attack.png"
+    },
+    {
+      "name": "COMMAND: DISSONANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/orianna/orianna-command-dissonance.png"
+    },
+    {
+      "name": "COMMAND: PROTECT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/orianna/orianna-command-protect.png"
+    },
+    {
+      "name": "COMMAND: SHOCKWAVE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/orianna/orianna-command-shockwave.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e4656d"
+  },
+  "name": "Pantheon",
+  "slug": "pantheon",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/pantheon.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/pantheon.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/pantheon.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/pantheon.jpg",
+  "skills": [
+    {
+      "name": "COMET SPEAR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pantheon/pantheon-comet-spear.png"
+    },
+    {
+      "name": "SHIELD VAULT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pantheon/pantheon-shield-vault.png"
+    },
+    {
+      "name": "AEGIS ASSAULT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pantheon/pantheon-aegis-assault.png"
+    },
+    {
+      "name": "GRAND STARFALL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pantheon/pantheon-grand-starfall.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e4656e"
+  },
+  "name": "Rakan",
+  "slug": "rakan",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/rakan.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/rakan.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/rakan.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/rakan.jpg",
+  "skills": [
+    {
+      "name": "GLEAMING QUILL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rakan/rakan-gleaming-quill.png"
+    },
+    {
+      "name": "GRAND ENTRANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rakan/rakan-grand-entrance.png"
+    },
+    {
+      "name": "BATTLE DANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rakan/rakan-battle-dance.png"
+    },
+    {
+      "name": "THE QUICKNESS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rakan/rakan-the-quickness.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e4656f"
+  },
+  "name": "Rammus",
+  "slug": "rammus",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/rammus.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/rammus.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/rammus.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/rammus.jpg",
+  "skills": [
+    {
+      "name": "POWERBALL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rammus/rammus-powerball.png"
+    },
+    {
+      "name": "DEFENSIVE BALL CURL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rammus/rammus-defensive-ball-curl.png"
+    },
+    {
+      "name": "FRENZYING TAUNT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rammus/rammus-frenzying-taunt.png"
+    },
+    {
+      "name": "SOARING SLAM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rammus/rammus-soaring-slam.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e46570"
+  },
+  "name": "Rengar",
+  "slug": "rengar",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/rengar.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/rengar.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/rengar.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/rengar.jpg",
+  "skills": [
+    {
+      "name": "SAVAGERY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rengar/rengar-savagery.png"
+    },
+    {
+      "name": "BATTLE ROAR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rengar/rengar-battle-roar.png"
+    },
+    {
+      "name": "BOLA STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rengar/rengar-bola-strike.png"
+    },
+    {
+      "name": "THRILL OF THE HUNT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/rengar/rengar-thrill-of-the-hunt.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd0a0d56ea90ec8e46571"
+  },
+  "name": "Seraphine",
+  "slug": "seraphine",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/seraphine.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/seraphine.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/seraphine.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/seraphine.jpg",
+  "skills": [
+    {
+      "name": "HIGH NOTE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/seraphine/seraphine-high-note.png"
+    },
+    {
+      "name": "SURROUND SOUND",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/seraphine/seraphine-surround-sound.png"
+    },
+    {
+      "name": "BEAT DROP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/seraphine/seraphine-beat-drop.png"
+    },
+    {
+      "name": "ENCORE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/seraphine/seraphine-encore.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46572"
+  },
+  "name": "Shyvana",
+  "slug": "shyvana",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/shyvana.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/shyvana.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/shyvana.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/shyvana.jpg",
+  "skills": [
+    {
+      "name": "TWIN BITE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shyvana/shyvana-twin-bite.png"
+    },
+    {
+      "name": "BURNOUT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shyvana/shyvana-burnout.png"
+    },
+    {
+      "name": "FLAME BREATH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shyvana/shyvana-flame-breath.png"
+    },
+    {
+      "name": "DRAGON'S DESCENT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shyvana/shyvana-dragons-descent.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46573"
+  },
+  "name": "Singed",
+  "slug": "singed",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/singed.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/singed.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/singed.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/singed.jpg",
+  "skills": [
+    {
+      "name": "POISON TRAIL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/singed/singed-poison-trail.png"
+    },
+    {
+      "name": "MEGA ADHESIVE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/singed/singed-mega-adhesive.png"
+    },
+    {
+      "name": "FLING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/singed/singed-fling.png"
+    },
+    {
+      "name": "INSANITY POTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/singed/singed-insanity-potion.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46574"
+  },
+  "name": "Sona",
+  "slug": "sona",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/sona.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/sona.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/sona.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/sona.jpg",
+  "skills": [
+    {
+      "name": "HYMN OF VALOR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sona/sona-hymn-of-valor.png"
+    },
+    {
+      "name": "ARIA OF PERSEVERANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sona/sona-aria-of-perseverance.png"
+    },
+    {
+      "name": "SONG OF CELERITY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sona/sona-song-of-celerity.png"
+    },
+    {
+      "name": "CRESCENDO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sona/sona-crescendo.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46575"
+  },
+  "name": "Soraka",
+  "slug": "soraka",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/soraka.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/soraka.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/soraka.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/soraka.jpg",
+  "skills": [
+    {
+      "name": "STARCALL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/soraka/soraka-starcall.png"
+    },
+    {
+      "name": "ASTRAL INFUSION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/soraka/soraka-astral-infusion.png"
+    },
+    {
+      "name": "EQUINOX",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/soraka/soraka-equinox.png"
+    },
+    {
+      "name": "WISH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/soraka/soraka-wish.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46576"
+  },
+  "name": "Teemo",
+  "slug": "teemo",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/teemo.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/teemo.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/teemo.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/teemo.jpg",
+  "skills": [
+    {
+      "name": "BLINDING DART",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/teemo/teemo-blinding-dart.png"
+    },
+    {
+      "name": "MOVE QUICK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/teemo/teemo-move-quick.png"
+    },
+    {
+      "name": "GUERILLA WARFARE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/teemo/teemo-guerilla-warfare.png"
+    },
+    {
+      "name": "NOXIOUS TRAP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/teemo/teemo-noxious-trap.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46577"
+  },
+  "name": "Tristana",
+  "slug": "tristana",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/tristana.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/tristana.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/tristana.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/tristana.jpg",
+  "skills": [
+    {
+      "name": "RAPID FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tristana/tristana-rapid-fire.png"
+    },
+    {
+      "name": "ROCKET JUMP",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tristana/tristana-rocket-jump.png"
+    },
+    {
+      "name": "EXPLOSIVE CHARGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tristana/tristana-explosive-charge.png"
+    },
+    {
+      "name": "BUSTER SHOT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tristana/tristana-buster-shot.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46578"
+  },
+  "name": "Tryndamere",
+  "slug": "tryndamere",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/tryndamere.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/tryndamere.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/tryndamere.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/tryndamere.jpg",
+  "skills": [
+    {
+      "name": "BLOODLUST",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tryndamere/tryndamere-bloodlust.png"
+    },
+    {
+      "name": "MOCKING SHOUT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tryndamere/tryndamere-mocking-shout.png"
+    },
+    {
+      "name": "SPINNING SLASH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tryndamere/tryndamere-spinning-slash.png"
+    },
+    {
+      "name": "UNDYING RAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/tryndamere/tryndamere-undying-rage.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd353d56ea90ec8e46579"
+  },
+  "name": "Twisted Fate",
+  "slug": "twisted-fate",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/twisted-fate.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/twistedfate.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/twistedfate.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/twistedfate.jpg",
+  "skills": [
+    {
+      "name": "WILD CARDS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/twisted-fate/twisted-fate-wild-cards.png"
+    },
+    {
+      "name": "PICK A CARD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/twisted-fate/twisted-fate-pick-a-card.png"
+    },
+    {
+      "name": "STACKED DECK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/twisted-fate/twisted-fate-stacked-deck.png"
+    },
+    {
+      "name": "DESTINY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/twisted-fate/twisted-fate-destiny.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e4657a"
+  },
+  "name": "Varus",
+  "slug": "varus",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/varus.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/varus.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/varus.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/varus.jpg",
+  "skills": [
+    {
+      "name": "PIERCING ARROW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/varus/varus-piercing-arrow.png"
+    },
+    {
+      "name": "BLIGHTED QUIVER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/varus/varus-blighted-quiver.png"
+    },
+    {
+      "name": "HAIL OF ARROWS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/varus/varus-hail-of-arrows.png"
+    },
+    {
+      "name": "CHAIN OF CORRUPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/varus/varus-chain-of-corruption.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e4657b"
+  },
+  "name": "Vayne",
+  "slug": "vayne",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/vayne.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/vayne.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/vayne.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/vayne.jpg",
+  "skills": [
+    {
+      "name": "TUMBLE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vayne/vayne-tumble.png"
+    },
+    {
+      "name": "SILVER BOLTS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vayne/vayne-silver-bolts.png"
+    },
+    {
+      "name": "CONDEMN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vayne/vayne-condemn.png"
+    },
+    {
+      "name": "FINAL HOUR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vayne/vayne-final-hour.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e4657c"
+  },
+  "name": "VI",
+  "slug": "vi",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/vi.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/vi.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/vi.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/vi.jpg",
+  "skills": [
+    {
+      "name": "VAULT BREAKER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/VI/vi-vault-breaker.png"
+    },
+    {
+      "name": "BLAST SHIELD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/VI/vi-blast-shield.png"
+    },
+    {
+      "name": "EXCESSIVE FORCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/VI/vi-excessive-force.png"
+    },
+    {
+      "name": "ASSAULT AND BATTERY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/VI/vi-assault-and-battery.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e4657d"
+  },
+  "name": "Wukong",
+  "slug": "wukong",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/wukong.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/wukong.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/wukong.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/wukong.jpg",
+  "skills": [
+    {
+      "name": "GOLDEN STAFF",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/wukong/wukong-golden-staff.png"
+    },
+    {
+      "name": "WARRIOR TRICKSTER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/wukong/wukong-warrior-trickster.png"
+    },
+    {
+      "name": "NIMBUS STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/wukong/wukong-nimbus-strike.png"
+    },
+    {
+      "name": "CYCLONE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/wukong/wukong-cyclone.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e4657e"
+  },
+  "name": "Xayah",
+  "slug": "xayah",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/xayah.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/xayah.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/xayah.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/xayah.jpg",
+  "skills": [
+    {
+      "name": "DOUBLE DAGGERS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xayah/xayah-double-daggers.png"
+    },
+    {
+      "name": "DEADLY PLUMAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xayah/xayah-deadly-plumage.png"
+    },
+    {
+      "name": "BLADECALLER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xayah/xayah-bladecaller.png"
+    },
+    {
+      "name": "FEATHERSTORM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xayah/xayah-featherstorm.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e4657f"
+  },
+  "name": "Xin Zhao",
+  "slug": "xin-zhao",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/xin-zhao.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/xinzhao.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/xinzhao.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/xinzhao.jpg",
+  "skills": [
+    {
+      "name": "THREE TALON STRIKE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xin-zhao/xin-zhao-three-talon-strike.png"
+    },
+    {
+      "name": "WIND BECOMES LIGHTNING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xin-zhao/xin-zhao-wind-becomes-lightning.png"
+    },
+    {
+      "name": "AUDACIOUS CHARGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xin-zhao/xin-zhao-audacious-charge.png"
+    },
+    {
+      "name": "CRESCENT GUARD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/xin-zhao/xin-zhao-crescent-guard.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e46580"
+  },
+  "name": "Yasuo",
+  "slug": "yasuo",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/yasuo.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/yasuo.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/yasuo.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/yasuo.jpg",
+  "skills": [
+    {
+      "name": "STEEL TEMPEST",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yasuo/yasuo-steel-tempest.png"
+    },
+    {
+      "name": "WIND WALL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yasuo/yasuo-wind-wall.png"
+    },
+    {
+      "name": "SWEEPING BLADE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yasuo/yasuo-sweeping-blade.png"
+    },
+    {
+      "name": "LAST BREATH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yasuo/yasuo-last-breath.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e46581"
+  },
+  "name": "Zed",
+  "slug": "zed",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/zed.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/zed.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/zed.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/zed.jpg",
+  "skills": [
+    {
+      "name": "RAZOR SHURIKEN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/zed/zed-razor-shuriken.png"
+    },
+    {
+      "name": "LIVING SHADOW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/zed/zed-living-shadow.png"
+    },
+    {
+      "name": "SHADOW SLASH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/zed/zed-shadow-slash.png"
+    },
+    {
+      "name": "DEATH MARK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/zed/zed-death-mark.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e46582"
+  },
+  "name": "Ziggs",
+  "slug": "ziggs",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/ziggs.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/ziggs.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/ziggs.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/ziggs.jpg",
+  "skills": [
+    {
+      "name": "BOUNCING BOMB",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ziggs/ziggs-bouncing-bomb.png"
+    },
+    {
+      "name": "SATCHEL CHARGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ziggs/ziggs-satchel-charge.png"
+    },
+    {
+      "name": "HEXPLOSIVE MINEFIELD",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ziggs/ziggs-hexplosive-minefield.png"
+    },
+    {
+      "name": "MEGA INFERNO BOMB",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ziggs/ziggs-mega-inferno-bomb.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60abd95dd56ea90ec8e46583"
+  },
+  "name": "Renekton",
+  "slug": "renekton",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/renekton.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/renekton.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/renekton.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/renekton.jpg",
+  "skills": [
+    {
+      "name": "CULL THE MEEK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/renekton/renekton-cull-the-meek.png"
+    },
+    {
+      "name": "RUTHLESS PREDATOR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/renekton/renekton-ruthless-predator.png"
+    },
+    {
+      "name": "SLICE AND DICE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/renekton/renekton-slice-and-dice.png"
+    },
+    {
+      "name": "DOMINUS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/renekton/renekton-dominus.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60ba963419f27c5d646ac70e"
+  },
+  "name": "Irelia",
+  "slug": "irelia",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/irelia.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/irelia.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/irelia.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/irelia.jpg",
+  "skills": [
+    {
+      "name": "BLADESURGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/irelia/irelia-bladesurge.png"
+    },
+    {
+      "name": "DEFIANT DANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/irelia/irelia-defiant-dance.png"
+    },
+    {
+      "name": "FLAWLESS DUET",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/irelia/irelia-flawless-duet.png"
+    },
+    {
+      "name": "VANGUARD'S EDGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/irelia/irelia-vanguards-edge.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60ba963419f27c5d646ac70f"
+  },
+  "name": "Riven",
+  "slug": "riven",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/riven.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/riven.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/riven.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/riven.jpg",
+  "skills": [
+    {
+      "name": "BROKEN WINGS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/riven/riven-broken-wings.png"
+    },
+    {
+      "name": "KI BURST",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/riven/riven-ki-burst.png"
+    },
+    {
+      "name": "VALOR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/riven/riven-valor.png"
+    },
+    {
+      "name": "BLADE OF THE EXILE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/riven/riven-blade-of-the-exile.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60e6145b003070e69d4aa345"
+  },
+  "name": "Lucian",
+  "slug": "lucian",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/lucian.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/lucian.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/lucian.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/lucian.jpg",
+  "skills": [
+    {
+      "name": "PIERCING LIGHT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lucian/lucian-piercing-light.png"
+    },
+    {
+      "name": "ARDENT BLAZE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lucian/lucian-ardent-blaze.png"
+    },
+    {
+      "name": "RELENTLESS PURSUIT",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lucian/lucian-relentless-pursuit.png"
+    },
+    {
+      "name": "THE CULLING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/lucian/lucian-the-culling.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60e6145b003070e69d4aa346"
+  },
+  "name": "Senna",
+  "slug": "senna",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/senna.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/senna.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/senna.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/senna.jpg",
+  "skills": [
+    {
+      "name": "PIERCING DARKNESS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/senna/senna-piercing-darkness.png"
+    },
+    {
+      "name": "LAST EMBRACE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/senna/senna-last-embrace.png"
+    },
+    {
+      "name": "CURSE OF THE BLACK MIST",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/senna/senna-curse-of-the-black-mist.png"
+    },
+    {
+      "name": "DAWNING SHADOW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/senna/senna-dawning-shadow.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "610ffcf5a2eaa7d219ebfc39"
+  },
+  "name": "Akshan",
+  "slug": "akshan",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/akshan.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/akshan.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/akshan.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/akshan.jpg",
+  "skills": [
+    {
+      "name": "AVENGERANG",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akshan/akshan-avengerang.png"
+    },
+    {
+      "name": "GOING ROGUE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akshan/akshan-going-rogue.png"
+    },
+    {
+      "name": "HEROIC SWING",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akshan/akshan-heroic-swing.png"
+    },
+    {
+      "name": "COMEUPPANCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/akshan/akshan-comeuppance.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6115cb34c27dc3bf70eee014"
+  },
+  "name": "Thresh",
+  "slug": "thresh",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/thresh.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/thresh.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/thresh.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/thresh.jpg",
+  "skills": [
+    {
+      "name": "DEATH SENTENCE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/thresh/thresh-death-sentence.png"
+    },
+    {
+      "name": "DARK PASSAGE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/thresh/thresh-dark-passage.png"
+    },
+    {
+      "name": "FLAY",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/thresh/thresh-flay.png"
+    },
+    {
+      "name": "THE BOX",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/thresh/thresh-the-box.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "614e2a0449fb96f80007d738"
+  },
+  "name": "Nunu",
+  "slug": "nunu",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/nunu.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/nunu.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/nunu.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/nunu.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f552e"
+  },
+  "name": "Brand",
+  "slug": "brand",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/brand.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/brand.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/brand.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/brand.jpg",
+  "skills": [
+    {
+      "name": "ABRASAR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/brand/brand_1.jpg"
+    },
+    {
+      "name": "COLUMNA DE FUEGO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/brand/brand_2.jpg"
+    },
+    {
+      "name": "CONFLAGRACIÓN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/brand/brand_3.jpg"
+    },
+    {
+      "name": "PIROCLASMA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/brand/brand_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f552f"
+  },
+  "name": "Caitlyn",
+  "slug": "caitlyn",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/caitlyn.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/caitlyn.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/caitlyn.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/caitlyn.jpg",
+  "skills": [
+    {
+      "name": "PACIFICADORA DE PILTÓVER",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/caitlyn/caitlyn_1.jpg"
+    },
+    {
+      "name": "TRAMPA PARA YORDLES",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/caitlyn/caitlyn_2.jpg"
+    },
+    {
+      "name": "RED CALIBRE 90",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/caitlyn/caitlyn_3.jpg"
+    },
+    {
+      "name": "AS BAJO LA MIRA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/caitlyn/caitlyn_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5530"
+  },
+  "name": "Jayce",
+  "slug": "jayce",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/jayce.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/jayce.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/jayce.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/jayce.jpg",
+  "skills": [
+    {
+      "name": "¡HACIA LOS CIELOS! / DESCARGA ELÉCTRICA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jayce/jayce_1.jpg"
+    },
+    {
+      "name": "CAMPO ELECTRIFICADO / HIPERCARGA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jayce/jayce_2.jpg"
+    },
+    {
+      "name": "GOLPE RELÁMPAGO / PORTAL DE ACELERACIÓN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jayce/jayce_3.jpg"
+    },
+    {
+      "name": "CAÑÓN DE MERCURIO / MARTILLO DE MERCURIO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/jayce/jayce_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5531"
+  },
+  "name": "Karma",
+  "slug": "karma",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/karma.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/karma.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/karma.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/karma.jpg",
+  "skills": [
+    {
+      "name": "LLAMA INTERNA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/karma/karma_1.jpg"
+    },
+    {
+      "name": "RESOLUCIÓN ENFOCADA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/karma/karma_2.jpg"
+    },
+    {
+      "name": "INSPIRACIÓN",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/karma/karma_3.jpg"
+    },
+    {
+      "name": "ABRAZO TRASCENDENTAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/karma/karma_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5532"
+  },
+  "name": "Kayle",
+  "slug": "kayle",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/kayle.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/kayle.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/kayle.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/kayle.jpg",
+  "skills": [
+    {
+      "name": "EXPLOSIÓN RADIANTE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kayle/kayle_1.jpg"
+    },
+    {
+      "name": "BENDICIÓN CELESTIAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kayle/kayle_2.jpg"
+    },
+    {
+      "name": "ESPADAFUEGO CELESTE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kayle/kayle_3.jpg"
+    },
+    {
+      "name": "JUICIO DIVINO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kayle/kayle_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5533"
+  },
+  "name": "Morgana",
+  "slug": "morgana",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/morgana.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/morgana.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/morgana.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/morgana.jpg",
+  "skills": [
+    {
+      "name": "HECHIZO OSCURO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/morgana/morgana_1.jpg"
+    },
+    {
+      "name": "SOMBRA MALDITA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/morgana/morgana_2.jpg"
+    },
+    {
+      "name": "ESCUDO NEGRO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/morgana/morgana_3.jpg"
+    },
+    {
+      "name": "GRILLETES DEL ALMA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/morgana/morgana_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5534"
+  },
+  "name": "Sett",
+  "slug": "sett",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/sett.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/sett.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/sett.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/sett.jpg",
+  "skills": [
+    {
+      "name": "SALUDA A MIS NUDILLOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sett/sett_1.jpg"
+    },
+    {
+      "name": "MI TURNO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sett/sett_2.jpg"
+    },
+    {
+      "name": "AHORA BÉSENSE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sett/sett_3.jpg"
+    },
+    {
+      "name": "HORA DEL SHOW",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sett/sett_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5535"
+  },
+  "name": "Shen",
+  "slug": "shen",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/shen.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/shen.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/shen.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/shen.jpg",
+  "skills": [
+    {
+      "name": "ATAQUE DE CREPÚSCULO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_1.jpg"
+    },
+    {
+      "name": "REFUGIO DEL ESPÍRITU",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_2.jpg"
+    },
+    {
+      "name": "ATAQUE DE SOMBRA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_3.jpg"
+    },
+    {
+      "name": "UNIDOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5536"
+  },
+  "name": "Veigar",
+  "slug": "veigar",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/veigar.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/veigar.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/veigar.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/veigar.jpg",
+  "skills": [
+    {
+      "name": "ATAQUE MALIGNO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/veigar/veigar_1.jpg"
+    },
+    {
+      "name": "MATERIA OSCURA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/veigar/veigar_2.jpg"
+    },
+    {
+      "name": "HORIZONTE DE SUCESOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/veigar/veigar_3.jpg"
+    },
+    {
+      "name": "ESTALLIDO PRIMORDIAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/veigar/veigar_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62716013e7510ca06f6f5537"
+  },
+  "name": "Yuumi",
+  "slug": "yuumi",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/yuumi.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/yuumi.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/yuumi.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/yuumi.jpg",
+  "skills": [
+    {
+      "name": "PROYECTIL ACECHADOR",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yuumi/yuumi_1.jpg"
+    },
+    {
+      "name": "¡TÚ Y YO!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yuumi/yuumi_2.jpg"
+    },
+    {
+      "name": "¡ACELERA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yuumi/yuumi_3.jpg"
+    },
+    {
+      "name": "ÚLTIMAS PÁGINAS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yuumi/yuumi_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62ab78f8a4c82eeb82b69e88"
+  },
+  "name": "Ekko",
+  "slug": "ekko",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/ekko.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/ekko.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/ekko.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/ekko.jpg",
+  "skills": [
+    {
+      "name": "REBOBINADOR DE TIEMPO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ekko/Ekko_1_ability_icon.jpg"
+    },
+    {
+      "name": "CONVERGENCIA PARALELA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ekko/Ekko_2_ability_icon.jpg"
+    },
+    {
+      "name": "SALTO DE FASE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ekko/Ekko_3_ability_icon.jpg"
+    },
+    {
+      "name": "CRONORRUPTURA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ekko/Ekko_4_ability_icon.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63287e99ebc36f75c49c84c7"
+  },
+  "name": "Gwen",
+  "slug": "gwen",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/gwen.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/gwen.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/gwen.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/gwen.jpg",
+  "skills": [
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gwen/Gwen_1.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gwen/Gwen_2.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gwen/Gwen_3.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/gwen/Gwen_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63287e99ebc36f75c49c84c8"
+  },
+  "name": "Kassadin",
+  "slug": "kassadin",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/kassadin.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/kassadin.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/kassadin.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/kassadin.jpg",
+  "skills": [
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kassadin/Kassadin_1.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kassadin/Kassadin_2.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kassadin/Kassadin_3.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/kassadin/Kassadin_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63287e99ebc36f75c49c84c9"
+  },
+  "name": "Nautilus",
+  "slug": "nautilus",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/nautilus.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/nautilus.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/nautilus.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/nautilus.jpg",
+  "skills": [
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nautilus/Nautilus_1.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nautilus/Nautilus_2.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nautilus/Nautilus_3.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/nautilus/Nautilus_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63287e99ebc36f75c49c84ca"
+  },
+  "name": "Pyke",
+  "slug": "pyke",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/pyke.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/pyke.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/pyke.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/pyke.jpg",
+  "skills": [
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pyke/Pyke_1.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pyke/Pyke_2.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pyke/Pyke_3.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/pyke/Pyke_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63287e99ebc36f75c49c84cb"
+  },
+  "name": "Samira",
+  "slug": "samira",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/samira.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/samira.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/samira.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/samira.jpg",
+  "skills": [
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/samira/Samira_1.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/samira/Samira_2.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/samira/Samira_3.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/samira/Samira_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63287e99ebc36f75c49c84cc"
+  },
+  "name": "Sion",
+  "slug": "sion",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/sion.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/sion.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/sion.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/sion.jpg",
+  "skills": [
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sion/Sion_1.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sion/Sion_2.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sion/Sion_3.jpg"
+    },
+    {
+      "name": "ATTACK",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/sion/Sion_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "633dec53322b4985240acd90"
+  },
+  "name": "Yone",
+  "slug": "yone",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/yone.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/yone.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/yone.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/yone.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yone/yone-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yone/yone-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yone/yone-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/yone/yone-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "636d6d8c70d1b8692de84aa0"
+  },
+  "name": "Vex",
+  "slug": "vex",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/vex.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/vex.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/vex.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/vex.jpg",
+  "skills": [
+    {
+      "name": "DESCARGA MISTRAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vex/vex-01.png"
+    },
+    {
+      "name": "ESPACIO PERSONAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vex/vex-02.png"
+    },
+    {
+      "name": "AMENAZA UMBRÍA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vex/vex-03.png"
+    },
+    {
+      "name": "¡HAZ LO TUYO, SOMBRA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/vex/vex-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "636d6de870d1b8692de84aa1"
+  },
+  "name": "Warwick",
+  "slug": "warwick",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/warwick.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/warwick.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/warwick.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/warwick.jpg",
+  "skills": [
+    {
+      "name": "FAUCES DE LA BESTIA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "CACERÍA DE SANGRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "AULLIDO PRIMIGENIO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "OPRESIÓN INFINITA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6394d4c167575b6b7977e7e9"
+  },
+  "name": "Aatrox",
+  "slug": "aatrox",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/aatrox.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/aatrox.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/aatrox.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/aatrox.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6394d4db67575b6b7977e7ea"
+  },
+  "name": "Kayn",
+  "slug": "kayn",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/kayn.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/kayn.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/kayn.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/kayn.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63d92d5b8d55a062ee72f1b9"
+  },
+  "name": "Lilia",
+  "slug": "lilia",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/lilia.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/lilia.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/lilia.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/lilia.jpg",
+  "skills": [
+    {
+      "name": "GOLPES FLORECEDORES",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "¡CUIDADO! ¡HIP!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "SEMILLA REMOLINO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "ARRULLO RÍTMICO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014e4d0491b6a6f74bf414"
+  },
+  "name": "Zeri",
+  "slug": "zeri",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/zeri.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/zeri.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/zeri.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/zeri.jpg",
+  "skills": [
+    {
+      "name": "RÁFAGA DE LUZ",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "LÁSER ULTRACARGADO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHISPAZO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "ESTALLIDO ELÉCTRICO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6483dfe135ca0d35e2167f97"
+  },
+  "name": "Swain",
+  "slug": "swain",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/swain.png",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/swain.png",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/swain.png",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/swain.png",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6483e02835ca0d35e2167f98"
+  },
+  "name": "Urgot",
+  "slug": "urgot",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/urgot.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/urgot.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/urgot.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/urgot.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6483e0a235ca0d35e2167f99"
+  },
+  "name": "Twitch",
+  "slug": "twitch",
+  "avatarUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/avatars/twitch.jpg",
+  "thumbUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/thumbs/twitch.jpg",
+  "splashUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/splashers/twitch.jpg",
+  "bannerUrl": "https://cdn.arenaprogaming.com/static/games/wildrift/banners/twitch.jpg",
+  "skills": [
+    {
+      "name": "ATAQUE DE CREPÚSCULO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_1.jpg"
+    },
+    {
+      "name": "REFUGIO DEL ESPÍRITU",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_2.jpg"
+    },
+    {
+      "name": "ATAQUE DE SOMBRA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_3.jpg"
+    },
+    {
+      "name": "UNIDOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/shen/shen_4.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64f09f393a815492c15701ab"
+  },
+  "name": "Vladimir",
+  "slug": "vladimir",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/vladimir.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/vladimir.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/vladimir.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/vladimir.jpg",
+  "skills": [
+    {
+      "name": "¡ESTRELLA SALTARINA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "LADRONA DE HECHIZOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "BURBUJA DORMILONA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "SALTO DE PORTAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64f09f893a815492c15701ac"
+  },
+  "name": "Nilah",
+  "slug": "nilah",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/nilah.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/nilah.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/nilah.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/nilah.jpg",
+  "skills": [
+    {
+      "name": "¡ESTRELLA SALTARINA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "LADRONA DE HECHIZOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "BURBUJA DORMILONA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "SALTO DE PORTAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64f09fb83a815492c15701ad"
+  },
+  "name": "Ornn",
+  "slug": "ornn",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/ornn.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/ornn.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/ornn.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/ornn.jpg",
+  "skills": [
+    {
+      "name": "¡ESTRELLA SALTARINA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "LADRONA DE HECHIZOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "BURBUJA DORMILONA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "SALTO DE PORTAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64f09fc73a815492c15701ae"
+  },
+  "name": "Volibear",
+  "slug": "volibear",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/volibear.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/volibear.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/volibear.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/volibear.jpg",
+  "skills": [
+    {
+      "name": "¡ESTRELLA SALTARINA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "LADRONA DE HECHIZOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "BURBUJA DORMILONA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "SALTO DE PORTAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64f0a04e3a815492c15701af"
+  },
+  "name": "Zoe",
+  "slug": "zoe",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/zoe.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/zoe.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/zoe.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/zoe.jpg",
+  "skills": [
+    {
+      "name": "¡ESTRELLA SALTARINA!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "LADRONA DE HECHIZOS",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "BURBUJA DORMILONA",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "SALTO DE PORTAL",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "654e9fc3938c31baa2cde36d"
+  },
+  "name": "Fiddlesticks",
+  "slug": "fiddlesticks",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/fiddlesticks.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/fiddlesticks.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/fiddlesticks.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/fiddlesticks.jpg",
+  "skills": [
+    {
+      "name": "ORB OF DECEPTION",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-orb-of-deception.png"
+    },
+    {
+      "name": "FOX-FIRE",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-fox-fire.png"
+    },
+    {
+      "name": "CHARM",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-charm.png"
+    },
+    {
+      "name": "SPIRIT RUSH",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/ahri/ahri-spirit-rush.png"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "65503609277352cb0c78adb6"
+  },
+  "name": "Hecarim",
+  "slug": "hecarim",
+  "avatarUrl": "https://statics.apg.gg/games/wildrift/avatars/hecarim.jpg",
+  "thumbUrl": "https://statics.apg.gg/games/wildrift/thumbs/hecarim.jpg",
+  "splashUrl": "https://statics.apg.gg/games/wildrift/splashers/hecarim.jpg",
+  "bannerUrl": "https://statics.apg.gg/games/wildrift/banners/hecarim.jpg",
+  "skills": [
+    {
+      "name": "GOLPES FLORECEDORES",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-01.png"
+    },
+    {
+      "name": "¡CUIDADO! ¡HIP!",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-02.png"
+    },
+    {
+      "name": "SEMILLA REMOLINO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-03.png"
+    },
+    {
+      "name": "ARRULLO RÍTMICO",
+      "image": "https://cdn.arenaprogaming.com/static/games/wildrift/champs/warwick/warwick-04.png"
+    }
+  ]
+}]

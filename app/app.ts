@@ -1,31 +1,30 @@
 import express from "express";
+import mongoose from 'mongoose';
 import moduleAlias from 'module-alias';
-import cors from 'cors'; 
 import * as http from "http";
 import * as bodyparser from "body-parser";
-import * as WebSocket from 'ws';
-import fileUpload from 'express-fileupload';
 
 moduleAlias.addAliases({
   "@common": `${__dirname}/common`,
-  "@auth": `${__dirname}/auth`,
   "@extensions": `${__dirname}/extensions`,
   "@routes": `${__dirname}/routes`,
-  "@graph": `${__dirname}/graph`,
 });
 
 import { CommonRoutesConfig } from "@common/common.routes.config";
-import { UsersRoutes } from "@routes/users/users.routes.config";
+import { WildRiftRoutes } from "@routes/wildrift/wildrift.routes.config";
 
 import * as expressWinston from "express-winston";
-import * as websocket from "@common/utils/websocket";
-import { PORT, SERVER_PORT, NODE_ENV } from "@common/utils/config";
+import { PORT, SERVER_PORT, URLDB, NODE_ENV } from "@common/utils/config";
 
 const app = express();
 const server: http.Server = new http.Server(app);
-
-const port = PORT;
 const routes: any = [];
+
+const options = {
+  autoIndex: false,
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+};
 
 process.on("uncaughtException", (err) => {
   console.log(err.name, err.message);
@@ -36,48 +35,55 @@ process.on("uncaughtException", (err) => {
 
 app.use(bodyparser.json({ limit: "5mb" }));
 
-app.use(cors({
-  origin: [`${process.env.DOMAIN_URL}`, `${process.env.DOMAIN_URL_DEV}`, `${process.env.DOMAIN_URL_GAV}`, `${process.env.DOMAIN_URL_DEV_GAV}`],
-	credentials: true,
-  exposedHeaders: ['apgstats_auth_token']
-}));
-
-// Middleware to handle incoming files
-app.use(fileUpload({
-  createParentPath: true
-}))
-
 let index = expressWinston.requestWhitelist.indexOf("headers");
 if (index !== -1) expressWinston.requestWhitelist.splice(index, 1);
 
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header("Access-Control-Allow-Methods", "GET,HEAD,PUT,PATCH,POST,DELETE");
+  res.header("Access-Control-Expose-Headers", "Content-Length");
+  res.header(
+    "Access-Control-Allow-Headers",
+    req.header("Access-Control-Request-Headers")
+  );
+  if (req.method === "OPTIONS") {
+    return res.status(200).send();
+  } else {
+    return next();
+  }
+});
+
 // routes definition should be placed here
-routes.push(new UsersRoutes(app));
+routes.push(new WildRiftRoutes(app));
 
 app.get("/", (req: express.Request, res: express.Response) => {
-  res.status(200).send(`Server running at port ${port}`);
+  res.status(200).send(`Server running at port 6030`);
 });
 
-const wss = websocket.init(server);
-
-wss.on('connection', (ws: WebSocket) => {
-  websocket.handleConnection(ws);   
-  websocket.getClient().send(JSON.stringify({
-    action: 'start'
-  }));
-});
-
-app.listen(port, () => {
-  console.log(`Api listening on port ${port}!`);
-});
-
-server.listen(SERVER_PORT, () => {
-  console.log("PM2 Restarted");
-  console.log(`Environment: '${NODE_ENV}'`);
-  console.log(`Server running at port ${SERVER_PORT}`);
-  routes.forEach((route: CommonRoutesConfig) => {
-    console.log(`Routes configured for ${route.getName()}`);
+mongoose
+  .connect('mongodb://mongo:27017/gaming', options)
+  .then(() => {
+    app.listen(6030, () => {
+      console.log(`Api listening on port 6030!`);
+    });
+    
+    server.listen(6040, () => {
+      console.log("PM2 Restarted");
+      console.log(`Environment: '${NODE_ENV}'`);
+      console.log(`Server running at port 6040`);
+      routes.forEach((route: CommonRoutesConfig) => {
+        console.log(`Routes configured for ${route.getName()}`);
+      });
+      console.log("MongoDB is connected");
+    });
+  })
+  .catch((err) => {
+    console.log(err)
+    console.log(
+      "MongoDB connection unsuccessful, retry after 5 seconds. ",
+    );
   });
-});
 
 
 export default app;

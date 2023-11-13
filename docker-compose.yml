@@ -15,10 +15,9 @@ x-common-keys-core: &common-keys-core
   restart: always
 
 services:
-
-  ts-node-docker:
+  node-api:
     <<: *common-keys-core
-    container_name: apg-platform-api
+    container_name: node-api-fullstack
     build:
       context: .
       dockerfile: Dockerfile
@@ -26,36 +25,22 @@ services:
       - ./app:/home/node/app/app
       - ./nodemon.json:/home/node/app/nodemon.json
     expose:
-      - '3040'
+      - '6030'
+      - '6040'
     ports:
-      - '3040'
-    command: node dist/app.js
-    env_file:
-      - .env.production
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.apg-platform-api.rule=Host(`platform.apg.gg`)"
-      - "traefik.http.routers.apg-platform-api.entrypoints=websecure"
-      - "traefik.http.routers.apg-platform-api.tls.certresolver=apgplatform"
-
-  ts-node-dev-docker:
-    <<: *common-keys-core
-    container_name: apg-platform-api-dev
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ./app:/home/node/app/app
-      - ./nodemon.json:/home/node/app/nodemon.json
-    expose:
-      - '5040'
-    ports:
-      - '5040'
+      - '6030:6030'
+      - '6040:6040'
     command: node dist/app.js
     env_file:
       - .env
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.apg-platform-api-dev.rule=Host(`platformdev.apg.gg`)"
-      - "traefik.http.routers.apg-platform-api-dev.entrypoints=websecure"
-      - "traefik.http.routers.apg-platform-api-dev.tls.certresolver=apgplatformdev"
+
+  mongo:
+    <<: *common-keys-core
+    container_name: mongo-container
+    image: mongo:latest
+    volumes:
+      - ./mongo-data:/data/db
+    expose:
+      - '27017'
+    ports:
+      - '27017:27017'
