@@ -1,5 +1,5 @@
-# Hola, soy Diego Becerra o **dDumst** 👋
-### Full-stack Web developer
+# Full-stack Web developer
+### Hola, soy Diego Becerra o **dDumst** 👋
 
 ![https://github.com/ddumst](https://user-images.githubusercontent.com/1307894/212375663-b2b2b89b-0530-4320-a254-928f1878ba86.png)
 
@@ -8,8 +8,11 @@ Este es un repositorio para un Master que ando cursando a la fecha (13/11/2023),
 Mi ejemplo es sobre un listado de los campeones de **League of Legends: WildRift**, en donde podemos hacer lo siguiente:
 
 `GET CHAMPS: "http://localhost:6030/wildrift/champs"`
+
 `GET CHAMP BY ID: "http://localhost:6030/wildrift/champs/655258a4841cf4747ec827dd"`
+
 `UPDATE CHAMP BY ID: "http://localhost:6030/wildrift/champs/655258a4841cf4747ec827dd"`
+
 `DELETE CHAMP BY ID: "http://localhost:6030/wildrift/champs/655258a4841cf4747ec827dd"`
 
 ## Correr proyecto localmente
